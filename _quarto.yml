@@ -11,6 +11,7 @@ project:
     - degrees.qmd
     - collaborations.qmd
     - contact.qmd
+    - software.qmd
 
 website:
   title: "Data Science & Technology — ITS, University of Leeds"
@@ -20,6 +21,8 @@ website:
     left:
       - text: "Home"
         href: index.qmd
+      - text: "Open Source Software"
+        href: software.qmd
       - text: "Data Science & Technology"
         menu:
           - text: "Overview"
