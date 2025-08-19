@@ -3,25 +3,31 @@ title: "People — Data Science & Technology"
 format: html
 ---
 
-# Our staff and PhD students
-
-Below are placeholder entries for staff and doctoral researchers. Photos can be added later.
+<!-- Below are staff and doctoral researchers at ITS Leeds with a focus on Artificial Intelligence, Machine Learning, and Data Science. 🤖📊 -->
 
 ## Academic staff
 
-- Prof. Alice Example — Professor of Transport Data Science
-- Dr. Bob Researcher — Senior Lecturer
-- Dr. Carol Analyst — Lecturer
+- [Prof. Robin Lovelace](https://environment.leeds.ac.uk/transport/staff/953/professor-robin-lovelace) — Professor of Transport Data Science
+- [Prof. Susan Grant-Muller](https://environment.leeds.ac.uk/transport/staff/959/professor-susan-grant-muller) — Professor of Technologies and Informatics
+- [Dr. Charisma Choudhury](https://environment.leeds.ac.uk/transport/staff/885/dr-charisma-choudhury) — Associate Professor in Choice Modelling & Data Analytics
+- [Dr. Juan Pablo Zamora Fonseca](https://environment.leeds.ac.uk/transport/staff/1785/dr-juan-pablo-zamora-fonseca) — Lecturer in Transport Data Science
+- [Dr. Sangeeta Mada](https://environment.leeds.ac.uk/transport/staff/1221/dr-sangeeta-mada) — Lecturer in Transport and Big Data
+- [Dr. Faisal Al-Sabah](https://environment.leeds.ac.uk/transport/staff/1739/dr-faisal-al-sabah) — Lecturer in Transport Data Science
+- [Dr. Jonas Shires](https://environment.leeds.ac.uk/transport/staff/1359/dr-jonas-shires) — Lecturer in Transport Data Analytics
 
+---
 ## Research staff
 
-- Dr. Dana Developer — Research Fellow
-- Dr. Evan Engineer — Postdoctoral Researcher
+- [Dr. Hussein Mahfouz](https://environment.leeds.ac.uk/transport/staff/1655/dr-hussein-mahfouz) — Research Fellow
+- [Dr. Richard Ellison](https://environment.leeds.ac.uk/transport/staff/921/dr-richard-ellison) — University Academic Fellow
+- [Dr. Lauren Bar-Lev](https://environment.leeds.ac.uk/transport/staff/1179/dr-lauren-bar-lev) — Research Fellow
 
+---
 ## PhD students
 
-- Student One — PhD: Mobility modelling
-- Student Two — PhD: Machine learning for travel demand
-- Student Three — PhD: Spatial transport analytics
-
-If you would like to add photos or bios, update this page with Markdown or provide a folder of images to include.
+- Valeria Andreoni — PhD: Uncertainty quantification in travel behaviour models using machine learning
+- Yuqing Zhang — PhD: Applying Machine Learning in Traffic State Prediction
+- Zhengyu Yin — PhD: Predicting short-term travel time on urban road network with advanced machine learning approaches
+- Hanlin Wu — PhD: Application of data assimilation to dynamic traffic assignment models
+- Jingde Weng — PhD: Investigating the factors influencing the usage of shared micro-mobility using large-scale datasets
+- Qianhan Zhu — PhD: Exploring travel behaviour changes using emerging data sources
