@@ -12,9 +12,13 @@ project:
     - collaborations.qmd
     - contact.qmd
     - software.qmd
+    - blog.qmd
+    - posts/**/*.qmd
 
 website:
   title: "DST"
+  site-url: https://itsleeds.github.io/dst/
+  description: "Data Science and Transport Theme website for the University of Leeds"
   repo-url: https://github.com/itsleeds/dst
   repo-actions: [edit, issue]
   navbar:
@@ -23,6 +27,8 @@ website:
     left:
       - text: "Home"
         href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
       - text: "Open Source Software"
         href: software.qmd
       - text: "Data Science & Technology"
@@ -43,3 +49,6 @@ website:
             href: collaborations.qmd
           - text: "Contact"
             href: contact.qmd
+    right:
+      - icon: rss
+        href: blog.xml
