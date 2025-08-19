@@ -31,23 +31,22 @@ website:
       - text: "Open Source Software"
         href: software.qmd
       - text: "Data Science & Technology"
-        menu:
-          - text: "Overview"
-            href: data-science.qmd
-          - text: "About"
-            href: about.qmd
-          - text: "People"
-            href: people.qmd
-          - text: "Publications"
-            href: publications.qmd
-          - text: "Projects"
-            href: projects.qmd
-          - text: "Research degrees"
-            href: degrees.qmd
-          - text: "Collaborations"
-            href: collaborations.qmd
-          - text: "Contact"
-            href: contact.qmd
+      - text: "Overview"
+        href: data-science.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Research degrees"
+        href: degrees.qmd
+      - text: "Collaborations"
+        href: collaborations.qmd
+      - text: "Contact"
+        href: contact.qmd
     right:
       - icon: rss
         href: blog.xml
