@@ -58,9 +58,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Reproducible slides with Quarto and continuous deployment via GitHub actions",
+    "title": "Data Science and Technology",
     "section": "",
-    "text": "The materials here support a talk at the Spatial Data Science across Languages (SDSL) conference 2024.\nSee the slides here and in the dropdown menu above.\nSee the source code at github.com/robinlovelace."
+    "text": "Data Science and Technology (DST) is a theme within the Institute for Transport Studies at the University of Leeds. Our research focuses on the application of data science and machine learning techniques to transport and mobility challenges."
   },
   {
     "objectID": "paper.html",
