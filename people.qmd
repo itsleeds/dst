@@ -1,0 +1,27 @@
+---
+title: "People — Data Science & Technology"
+format: html
+---
+
+# Our staff and PhD students
+
+Below are placeholder entries for staff and doctoral researchers. Photos can be added later.
+
+## Academic staff
+
+- Prof. Alice Example — Professor of Transport Data Science
+- Dr. Bob Researcher — Senior Lecturer
+- Dr. Carol Analyst — Lecturer
+
+## Research staff
+
+- Dr. Dana Developer — Research Fellow
+- Dr. Evan Engineer — Postdoctoral Researcher
+
+## PhD students
+
+- Student One — PhD: Mobility modelling
+- Student Two — PhD: Machine learning for travel demand
+- Student Three — PhD: Spatial transport analytics
+
+If you would like to add photos or bios, update this page with Markdown or provide a folder of images to include.

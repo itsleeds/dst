@@ -1,0 +1,14 @@
+---
+title: "Projects — Data Science & Technology"
+format: html
+---
+
+# Current Research Projects
+
+A placeholder listing of active research projects within the theme.
+
+- Project A: Real-time traffic prediction (EPSRC-funded)
+- Project B: Automated public transport modelling (industry partnership)
+- Project C: Mobility equity and accessibility (ESRC collaboration)
+
+Project pages will be expanded with abstracts, funding details, and contacts.

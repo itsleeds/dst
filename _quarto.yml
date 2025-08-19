@@ -1,18 +1,40 @@
 project:
   type: website
   render:
-    - index.qmd 
-    - slides.qmd
+    - index.qmd
     - paper.qmd
+    - data-science.qmd
+    - about.qmd
+    - people.qmd
+    - publications.qmd
+    - projects.qmd
+    - degrees.qmd
+    - collaborations.qmd
+    - contact.qmd
 
 website:
+  title: "Data Science & Technology — ITS, University of Leeds"
   navbar:
     background: primary
     search: true
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Slides"
-        href: slides.qmd
-      # - text: "Paper"
-      #   href: paper.qmd 
+      - text: "Data Science & Technology"
+        menu:
+          - text: "Overview"
+            href: data-science.qmd
+          - text: "About"
+            href: about.qmd
+          - text: "People"
+            href: people.qmd
+          - text: "Publications"
+            href: publications.qmd
+          - text: "Projects"
+            href: projects.qmd
+          - text: "Research degrees"
+            href: degrees.qmd
+          - text: "Collaborations"
+            href: collaborations.qmd
+          - text: "Contact"
+            href: contact.qmd

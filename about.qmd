@@ -1,0 +1,20 @@
+---
+title: "About — Data Science & Technology"
+format: html
+---
+
+# About the Data Science & Technology theme
+
+The Data Science & Technology theme at the Institute for Transport Studies (ITS), University of Leeds brings together researchers working at the intersection of data science, machine learning, and transport systems.
+
+Our mission is to develop methods and tools that improve transport planning, operations, and policy through better data, modelling, and technology.
+
+Key focus areas include:
+
+- Mobility data science and analytics
+- Transport modelling and simulation
+- Machine learning for transport applications
+- Intelligent transport systems and automation
+- Spatial data science and networks
+
+We collaborate across the University and with external partners to ensure our research has academic rigor and real-world impact.

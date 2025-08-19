@@ -1,0 +1,14 @@
+---
+title: "Publications — Data Science & Technology"
+format: html
+---
+
+# Recent Publications
+
+This is a placeholder list of recent publications from the Data Science & Technology theme.
+
+- Author A, Author B (2025). Title of paper. Journal of Transport Data.
+- Author C, Author D (2024). Another paper. Transport Modelling Journal.
+- Author E, Author F (2023). Spatial analysis of mobility. Journal of Spatial Data.
+
+For the full list, we will provide a living publications page linked to a BibTeX file or external repository.

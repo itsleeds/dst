@@ -1,0 +1,17 @@
+---
+title: "Research degrees — Data Science & Technology"
+format: html
+---
+
+# Research degrees
+
+We have opportunities for prospective postgraduate researchers. Example projects and funding opportunities can be found in our PhD directory.
+
+Previous topics have included:
+
+- Data-driven demand modelling
+- Machine learning for traffic forecasting
+- Spatial analysis of transport accessibility
+- Mobility behaviour modelling using large-scale datasets
+
+For details on applying, funding, and supervisors, please see the ITS PhD pages or contact our postgraduate admissions team.
