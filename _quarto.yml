@@ -15,6 +15,8 @@ project:
 
 website:
   title: "DST"
+  repo-url: https://github.com/itsleeds/dst
+  repo-actions: [edit, issue]
   navbar:
     background: primary
     search: true
