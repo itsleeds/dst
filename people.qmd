@@ -8,14 +8,14 @@ format: html
 ## Staff
 
 - [Prof Robin Lovelace](https://environment.leeds.ac.uk/transport/staff/953/professor-robin-lovelace): Professor of Transport Data Science
-- [Prof Susan Grant-Muller]()
-- [Prof Charisma Choudhury]() 
-- [Dr James Tate]()
-- [Dr Chris Rushton]()
-- [Dr Ibrahim Ozturk]()
+- [Prof Susan Grant-Muller](https://environment.leeds.ac.uk/transport/staff/932/professor-susan-grant-muller)
+- [Prof Charisma Choudhury](https://environment.leeds.ac.uk/transport/staff/924/professor-charisma-choudhury)
+- [Dr James Tate](https://environment.leeds.ac.uk/transport/staff/980/dr-james-tate)
+- [Dr Chris Rushton](https://environment.leeds.ac.uk/transport/staff/8835/dr-chris-rushton)
+- [Dr Ibrahim Ozturk](https://environment.leeds.ac.uk/transport/staff/10087/dr-ibrahim-ozturk)
 
 ## PhD students
 
-- [Hussein Mahfouz]()
-- [Juan Pablo Zamora Fonseca]()
+- [Hussein Mahfouz](https://environment.leeds.ac.uk/transport/pgr/11201/hussein-mahfouz)
+- [Juan Pablo Zamora Fonseca](https://environment.leeds.ac.uk/geography/pgr/11291/juan-p-fonseca-zamora)
 
