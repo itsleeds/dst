@@ -2,4 +2,5 @@
 title: Data Science and Technology
 ---
 
-Data Science and Technology (DST) is a theme within the Institute for Transport Studies at the University of Leeds. Our research focuses on the application of data science and machine learning techniques to transport and mobility challenges.
+Data Science and Technology (DST) is a theme within the [Institute for Transport Studies (ITS)](https://environment.leeds.ac.uk/transport) at the [University of Leeds](https://www.leeds.ac.uk/).
+The theme joins-up data-intensive research across [ITS research groups](https://environment.leeds.ac.uk/transport-research), applying data science and machine learning techniques to transport and mobility challenges.
