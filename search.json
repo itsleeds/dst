@@ -25,28 +25,21 @@
     "href": "people.html",
     "title": "People — Data Science & Technology",
     "section": "",
-    "text": "Below are placeholder entries for staff and doctoral researchers. Photos can be added later.\n\n\n\nProf. Alice Example — Professor of Transport Data Science\nDr. Bob Researcher — Senior Lecturer\nDr. Carol Analyst — Lecturer\n\n\n\n\n\nDr. Dana Developer — Research Fellow\nDr. Evan Engineer — Postdoctoral Researcher\n\n\n\n\n\nStudent One — PhD: Mobility modelling\nStudent Two — PhD: Machine learning for travel demand\nStudent Three — PhD: Spatial transport analytics\n\nIf you would like to add photos or bios, update this page with Markdown or provide a folder of images to include."
+    "text": "Prof Robin Lovelace: Professor of Transport Data Science\nProf Susan Grant-Muller\nProf Charisma Choudhury\nDr James Tate\nDr Chris Rushton\nDr Ibrahim Ozturk"
   },
   {
-    "objectID": "people.html#academic-staff",
-    "href": "people.html#academic-staff",
+    "objectID": "people.html#staff",
+    "href": "people.html#staff",
     "title": "People — Data Science & Technology",
     "section": "",
-    "text": "Prof. Alice Example — Professor of Transport Data Science\nDr. Bob Researcher — Senior Lecturer\nDr. Carol Analyst — Lecturer"
-  },
-  {
-    "objectID": "people.html#research-staff",
-    "href": "people.html#research-staff",
-    "title": "People — Data Science & Technology",
-    "section": "",
-    "text": "Dr. Dana Developer — Research Fellow\nDr. Evan Engineer — Postdoctoral Researcher"
+    "text": "Prof Robin Lovelace: Professor of Transport Data Science\nProf Susan Grant-Muller\nProf Charisma Choudhury\nDr James Tate\nDr Chris Rushton\nDr Ibrahim Ozturk"
   },
   {
     "objectID": "people.html#phd-students",
     "href": "people.html#phd-students",
     "title": "People — Data Science & Technology",
-    "section": "",
-    "text": "Student One — PhD: Mobility modelling\nStudent Two — PhD: Machine learning for travel demand\nStudent Three — PhD: Spatial transport analytics\n\nIf you would like to add photos or bios, update this page with Markdown or provide a folder of images to include."
+    "section": "PhD students",
+    "text": "PhD students\n\nHussein Mahfouz\nJuan Pablo Zamora Fonseca"
   },
   {
     "objectID": "data-science.html",
