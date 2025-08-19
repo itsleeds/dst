@@ -4,4 +4,10 @@ Data Science and Technology (DST) is a theme within the Institute for Transport 
 
 This is a quarto website for the DST theme.
 
-Contributions welcome!
+Contributions welcome, see the [issue tracker](https://github.com/itsleeds/dst/issues) to get involved.
+
+To convert the website into another format, use the following command:
+
+```bash
+quarto render dst.qmd --to docx
+```

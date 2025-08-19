@@ -1,0 +1,12 @@
+# options apply to all posts in this folder
+
+# freeze computational output
+freeze: auto
+
+# enable banner style title blocks
+title-block-banner: true
+
+# Configure Utterances for comments
+comments:
+  utterances:
+    repo:  "itsleeds/itsleeds-comments" # Replace with your actual GitHub comments repository (e.g., your-username/your-comments-repo)
