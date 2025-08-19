@@ -2,7 +2,6 @@ project:
   type: website
   render:
     - index.qmd
-    - paper.qmd
     - data-science.qmd
     - about.qmd
     - people.qmd

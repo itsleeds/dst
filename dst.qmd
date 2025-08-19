@@ -1,0 +1,44 @@
+---
+title: "DST Website - All Content"
+format: html
+---
+
+# All Website Content
+
+This document aggregates all the main content from the DST website into a single view.
+
+## Home
+{{< include index.qmd >}}
+
+## Paper
+{{< include paper.qmd >}}
+
+## Data Science & Technology
+{{< include data-science.qmd >}}
+
+## About
+{{< include about.qmd >}}
+
+## People
+{{< include people.qmd >}}
+
+## Publications
+{{< include publications.qmd >}}
+
+## Projects
+{{< include projects.qmd >}}
+
+## Degrees
+{{< include degrees.qmd >}}
+
+## Collaborations
+{{< include collaborations.qmd >}}
+
+## Contact
+{{< include contact.qmd >}}
+
+## Open Source Software
+{{< include software.qmd >}}
+
+## Blog
+{{< include blog.qmd >}}
