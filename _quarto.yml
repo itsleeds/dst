@@ -14,7 +14,7 @@ project:
     - software.qmd
 
 website:
-  title: "Data Science & Technology — ITS, University of Leeds"
+  title: "DST"
   navbar:
     background: primary
     search: true
