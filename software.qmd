@@ -7,4 +7,15 @@ format: html
 
 This page lists open source software developed by members of the Data Science & Technology theme.
 
-*More content to be added here.*
+<!-- *More content to be added here.* -->
+## Popular ITSLeeds GitHub Repositories (5+ Stars)
+
+Here are some popular open-source repositories from the ITSLeeds GitHub organization:
+
+*   [pct](https://github.com/itsleeds/pct) (20 stars): Get and reproduce data from the Propensity to Cycle Tool (PCT).
+*   [tds](https://github.com/itsleeds/tds) (51 stars): Transport Data Science, a post-graduate module at the University of Leeds' Institute for Transport Studies.
+*   [od](https://github.com/itsleeds/od) (33 stars): An R package for working with origin-destination data.
+*   [opentransportdata](https://github.com/itsleeds/opentransportdata) (21 stars): A curated list of open transport datasets for research, teaching, and to save the world.
+*   [UK2GTFS](https://github.com/itsleeds/UK2GTFS) (43 stars): Convert UK transport data (TransXchange / ATOC CIF) to GTFS format in R.
+*   [rrsrr](https://github.com/ITSLeeds/rrsrr) (7 stars): Reproducible road safety research with R: a practical user manual (book).
+*   [NTEM2OD](https://github.com/itsleeds/NTEM2OD) (5 stars): Scripts to convert the National Trip Ends Model (NTEM) into an Origin-Destination (OD) Matrix.
