@@ -10,12 +10,6 @@ This document aggregates all the main content from the DST website into a single
 ## Home
 {{< include index.qmd >}}
 
-## Paper
-{{< include paper.qmd >}}
-
-## Data Science & Technology
-{{< include data-science.qmd >}}
-
 ## About
 {{< include about.qmd >}}
 

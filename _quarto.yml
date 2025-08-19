@@ -2,7 +2,6 @@ project:
   type: website
   render:
     - index.qmd
-    - data-science.qmd
     - about.qmd
     - people.qmd
     - publications.qmd
@@ -30,9 +29,6 @@ website:
         href: blog.qmd
       - text: "Open Source Software"
         href: software.qmd
-      - text: "Data Science & Technology"
-      - text: "Overview"
-        href: data-science.qmd
       - text: "About"
         href: about.qmd
       - text: "People"
