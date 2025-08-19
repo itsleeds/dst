@@ -1,9 +1,5 @@
 ---
-title: Reproducible slides with Quarto and continuous deployment via GitHub actions
+title: Data Science and Technology
 ---
 
-The materials here support a talk at the [Spatial Data Science across Languages (SDSL)](https://spatial-data-science.github.io/2024/) conference 2024.
-
-See the [slides here](slides) and in the dropdown menu above.
-
-See the source code at [github.com/robinlovelace](https://github.com/Robinlovelace/reproducible-slides-repo-template).
+Data Science and Technology (DST) is a theme within the Institute for Transport Studies at the University of Leeds. Our research focuses on the application of data science and machine learning techniques to transport and mobility challenges.

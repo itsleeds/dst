@@ -1,19 +1,7 @@
-# reproducible-slides-repo-template
+# Data Science and Technology
 
-Flexible repo template for reproducible slides with Quarto and continuous deployment via GitHub actions
+Data Science and Technology (DST) is a theme within the Institute for Transport Studies at the University of Leeds. Our research focuses on the application of data science and machine learning techniques to transport and mobility challenges.
 
-See https://robinlovelace.github.io/reproducible-slides-repo-template/slides for the content, the most important parts of which are:
+This is a quarto website for the DST theme.
 
-- You can use this repo as a template for your own reproducible slides
-- Quarto is a powerful tool for creating reproducible documents
-- Set-up GitHub pages with:
-
-```sh
-quarto publish gh-pages
-```
-
-- Use [GitHub actions](.github/workflows/) to automatically deploy your slides to GitHub pages
-
-## Reproducible slide projects build with this
-
-- Deploying cross-language in high impact projects, auto-updated and deployed with every commit, with R and Python code running and generating results shown in the slides: https://github.com/Robinlovelace/cross_language_projects
+Contributions welcome!
