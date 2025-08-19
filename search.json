@@ -1,24 +1,59 @@
 [
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Open Source Software",
+    "objectID": "posts/2025-08-19-transport-data-minihack-2026/index.html",
+    "href": "posts/2025-08-19-transport-data-minihack-2026/index.html",
+    "title": "Announcing the Transport Data Minihack 2026",
     "section": "",
-    "text": "Open Source Software\nThis page lists open source software developed by members of the Data Science & Technology theme.\nMore content to be added here."
+    "text": "The Institute for Transport Studies (ITS) is excited to announce the Transport Data Minihack 2026, an event designed to foster data, coding, and reproducible research skills among ITS staff and students. This mini-hackathon provides a unique opportunity to delve into transport datasets, enhance technical abilities, and collaborate on real-world data challenges.\nScheduled for Thursday, May 7th, 2026, the event aims to create a supportive environment for participants, especially ITS MSc students working on their dissertation projects. It’s a chance to get hands-on support with importing, processing, and visualizing data, and to explore the power of data science techniques in the context of transport.\n\n\n\nSupportive Learning: Provide a space for participants to ask questions about working with datasets and applying data science techniques to transport data.\nDissertation Assistance: Offer direct support for importing datasets for MSc dissertations and other research projects.\nData Wrangling: Focus on practical skills using tools like the tidyverse R package for data manipulation.\nData Visualization: Enhance general data visualization skills and gain specific experience with various transport data types.\nOpen Science Promotion: Showcase the potential of open data (transparency, participation, research) and reproducible/open workflows.\n\n\n\n\nThe Minihack is open to all staff and students at ITS. If you are not based at the University of Leeds but are interested in participating, please contact the organizers (Robin Lovelace) for more information.\n\n\n\nThe event will feature a structured yet flexible schedule to maximize learning and collaboration:\n\n13:00 - 13:30: Introduction to importing, processing, and visualizing data with RStudio, including an overview of RStudio and Quarto for reproducible reports, and an example with origin-destination data in Leeds.\n13:30 - 14:00: Dedicated time for importing datasets and installing necessary packages, with support available for any issues.\n14:00 - 14:05: Short break.\n14:05 - 15:00: Solo working sessions on datasets, with organizers available for questions and support.\n15:15 - 15:45: Optional presentations of results, offering participants a chance to share their learnings.\n15:45 - 16:00: Networking and idea-sharing session.\n\n\n\n\nParticipants will have the opportunity to win a copy of “Geocomputation with Python” or “Geocomputation with R (second edition)”. Prizes will be awarded based on:\n\nBest technical implementation and code.\nMost creative or impactful use of data.\n\nChallenges for participants include writing code to automatically download and import datasets, subsetting data, and creating Quarto reports summarizing their analysis.\nDon’t miss this opportunity to enhance your data skills and contribute to the vibrant research community at ITS! Sign-up details can be found here."
   },
   {
-    "objectID": "collaborations.html",
-    "href": "collaborations.html",
-    "title": "Collaborations — Data Science & Technology",
+    "objectID": "posts/2025-08-19-transport-data-minihack-2026/index.html#empowering-data-skills-at-its-the-transport-data-minihack-2026",
+    "href": "posts/2025-08-19-transport-data-minihack-2026/index.html#empowering-data-skills-at-its-the-transport-data-minihack-2026",
+    "title": "Announcing the Transport Data Minihack 2026",
     "section": "",
-    "text": "Collaborations & Partnerships\nWe collaborate with academic, industry, and public sector partners, including:\n\nLocal authorities and transport operators\nTechnology companies working on mobility and data platforms\nInterdisciplinary research groups across the University of Leeds\nInternational research collaborators\n\nIf your organisation is interested in collaborating, please get in touch."
+    "text": "The Institute for Transport Studies (ITS) is excited to announce the Transport Data Minihack 2026, an event designed to foster data, coding, and reproducible research skills among ITS staff and students. This mini-hackathon provides a unique opportunity to delve into transport datasets, enhance technical abilities, and collaborate on real-world data challenges.\nScheduled for Thursday, May 7th, 2026, the event aims to create a supportive environment for participants, especially ITS MSc students working on their dissertation projects. It’s a chance to get hands-on support with importing, processing, and visualizing data, and to explore the power of data science techniques in the context of transport.\n\n\n\nSupportive Learning: Provide a space for participants to ask questions about working with datasets and applying data science techniques to transport data.\nDissertation Assistance: Offer direct support for importing datasets for MSc dissertations and other research projects.\nData Wrangling: Focus on practical skills using tools like the tidyverse R package for data manipulation.\nData Visualization: Enhance general data visualization skills and gain specific experience with various transport data types.\nOpen Science Promotion: Showcase the potential of open data (transparency, participation, research) and reproducible/open workflows.\n\n\n\n\nThe Minihack is open to all staff and students at ITS. If you are not based at the University of Leeds but are interested in participating, please contact the organizers (Robin Lovelace) for more information.\n\n\n\nThe event will feature a structured yet flexible schedule to maximize learning and collaboration:\n\n13:00 - 13:30: Introduction to importing, processing, and visualizing data with RStudio, including an overview of RStudio and Quarto for reproducible reports, and an example with origin-destination data in Leeds.\n13:30 - 14:00: Dedicated time for importing datasets and installing necessary packages, with support available for any issues.\n14:00 - 14:05: Short break.\n14:05 - 15:00: Solo working sessions on datasets, with organizers available for questions and support.\n15:15 - 15:45: Optional presentations of results, offering participants a chance to share their learnings.\n15:45 - 16:00: Networking and idea-sharing session.\n\n\n\n\nParticipants will have the opportunity to win a copy of “Geocomputation with Python” or “Geocomputation with R (second edition)”. Prizes will be awarded based on:\n\nBest technical implementation and code.\nMost creative or impactful use of data.\n\nChallenges for participants include writing code to automatically download and import datasets, subsetting data, and creating Quarto reports summarizing their analysis.\nDon’t miss this opportunity to enhance your data skills and contribute to the vibrant research community at ITS! Sign-up details can be found here."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects — Data Science & Technology",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Current Research Projects\nA placeholder listing of active research projects within the theme.\n\nProject A: Real-time traffic prediction (EPSRC-funded)\nProject B: Automated public transport modelling (industry partnership)\nProject C: Mobility equity and accessibility (ESRC collaboration)\n\nProject pages will be expanded with abstracts, funding details, and contacts."
+    "text": "Latest Posts\nThis page features the latest blog posts from the Data Science & Technology theme.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSetting Up a Quarto Website for Reproducible Research\n\n\n\nQuarto\n\nReproducibility\n\nOpen Science\n\nBlogging\n\n\n\nA guide to setting up a Quarto website, emphasizing its benefits for reproducible scientific research and open collaboration.\n\n\n\n\n\nAug 19, 2025\n\n\nKilo Code\n\n\n\n\n\n\n\n\n\n\n\n\nAnnouncing the Transport Data Minihack 2026\n\n\n\nDatahack\n\nTransport Data\n\nReproducibility\n\nITS Leeds\n\n\n\nJoin ITS staff and students for a data, coding, and reproducible research mini-hackathon focusing on transport datasets.\n\n\n\n\n\nAug 7, 2025\n\n\nRobin Lovelace\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact — Data Science & Technology",
+    "section": "",
+    "text": "Contact Us\nInstitute for Transport Studies, University of Leeds\nAddress:\nInstitute for Transport Studies University of Leeds Leeds, LS2 9JT UK\nEmail: contact-its-dst@leeds.ac.uk\nVisit: https://its.leeds.ac.uk"
+  },
+  {
+    "objectID": "degrees.html",
+    "href": "degrees.html",
+    "title": "Research degrees — Data Science & Technology",
+    "section": "",
+    "text": "Research degrees\nWe have opportunities for prospective postgraduate researchers. Example projects and funding opportunities can be found in our PhD directory.\nPrevious topics have included:\n\nData-driven demand modelling\nMachine learning for traffic forecasting\nSpatial analysis of transport accessibility\nMobility behaviour modelling using large-scale datasets\n\nFor details on applying, funding, and supervisors, please see the ITS PhD pages or contact our postgraduate admissions team."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications — Data Science & Technology",
+    "section": "",
+    "text": "Recent Publications\nThis is a placeholder list of recent publications from the Data Science & Technology theme.\n\nAuthor A, Author B (2025). Title of paper. Journal of Transport Data.\nAuthor C, Author D (2024). Another paper. Transport Modelling Journal.\nAuthor E, Author F (2023). Spatial analysis of mobility. Journal of Spatial Data.\n\nFor the full list, we will provide a living publications page linked to a BibTeX file or external repository."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About — Data Science & Technology",
+    "section": "",
+    "text": "About the Data Science & Technology theme\nThe Data Science & Technology theme at the Institute for Transport Studies (ITS), University of Leeds brings together researchers working at the intersection of data science, machine learning, and transport systems.\nOur mission is to develop methods and tools that improve transport planning, operations, and policy through better data, modelling, and technology.\nKey focus areas include:\n\nMobility data science and analytics\nTransport modelling and simulation\nMachine learning for transport applications\nIntelligent transport systems and automation\nSpatial data science and networks\n\nWe collaborate across the University and with external partners to ensure our research has academic rigor and real-world impact."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science and Technology",
+    "section": "",
+    "text": "Data Science and Technology (DST) is a theme within the Institute for Transport Studies (ITS) at the University of Leeds. The theme joins-up data-intensive research across ITS research groups, applying data science and machine learning techniques to transport and mobility challenges."
   },
   {
     "objectID": "people.html",
@@ -42,59 +77,45 @@
     "text": "PhD students\n\nHussein Mahfouz\nJuan Pablo Zamora Fonseca"
   },
   {
-    "objectID": "data-science.html",
-    "href": "data-science.html",
-    "title": "Data Science & Technology — ITS",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects — Data Science & Technology",
     "section": "",
-    "text": "Welcome to the Data Science & Technology research theme in the Institute for Transport Studies (ITS), University of Leeds.\nThis site provides an overview of our research, people, publications, projects, and opportunities for postgraduate researchers.\n\n\n\nAbout the theme: about\nOur people: people\nRecent publications: publications\nCurrent projects: projects\nResearch degrees: degrees\nCollaborations & partnerships: collaborations\nContact: contact"
+    "text": "Current Research Projects\nA placeholder listing of active research projects within the theme.\n\nProject A: Real-time traffic prediction (EPSRC-funded)\nProject B: Automated public transport modelling (industry partnership)\nProject C: Mobility equity and accessibility (ESRC collaboration)\n\nProject pages will be expanded with abstracts, funding details, and contacts."
   },
   {
-    "objectID": "data-science.html#quick-links",
-    "href": "data-science.html#quick-links",
-    "title": "Data Science & Technology — ITS",
+    "objectID": "collaborations.html",
+    "href": "collaborations.html",
+    "title": "Collaborations — Data Science & Technology",
     "section": "",
-    "text": "About the theme: about\nOur people: people\nRecent publications: publications\nCurrent projects: projects\nResearch degrees: degrees\nCollaborations & partnerships: collaborations\nContact: contact"
+    "text": "Collaborations & Partnerships\nWe collaborate with academic, industry, and public sector partners, including:\n\nLocal authorities and transport operators\nTechnology companies working on mobility and data platforms\nInterdisciplinary research groups across the University of Leeds\nInternational research collaborators\n\nIf your organisation is interested in collaborating, please get in touch."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Science and Technology",
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Open Source Software",
     "section": "",
-    "text": "Data Science and Technology (DST) is a theme within the Institute for Transport Studies (ITS) at the University of Leeds. The theme joins-up data-intensive research across ITS research groups, applying data science and machine learning techniques to transport and mobility challenges."
+    "text": "This page lists open source software developed by members of the Data Science & Technology theme.\n\n\n\nHere are some popular open-source repositories from the ITSLeeds GitHub organization:\n\npct (20 stars): Get and reproduce data from the Propensity to Cycle Tool (PCT).\ntds (51 stars): Transport Data Science, a post-graduate module at the University of Leeds’ Institute for Transport Studies.\nod (33 stars): An R package for working with origin-destination data.\nopentransportdata (21 stars): A curated list of open transport datasets for research, teaching, and to save the world.\nUK2GTFS (43 stars): Convert UK transport data (TransXchange / ATOC CIF) to GTFS format in R.\nrrsrr (7 stars): Reproducible road safety research with R: a practical user manual (book).\nNTEM2OD (5 stars): Scripts to convert the National Trip Ends Model (NTEM) into an Origin-Destination (OD) Matrix."
   },
   {
-    "objectID": "paper.html",
-    "href": "paper.html",
-    "title": "DST",
+    "objectID": "software.html#popular-itsleeds-github-repositories-5-stars",
+    "href": "software.html#popular-itsleeds-github-repositories-5-stars",
+    "title": "Open Source Software",
     "section": "",
-    "text": "This is a placeholder for a paper."
+    "text": "Here are some popular open-source repositories from the ITSLeeds GitHub organization:\n\npct (20 stars): Get and reproduce data from the Propensity to Cycle Tool (PCT).\ntds (51 stars): Transport Data Science, a post-graduate module at the University of Leeds’ Institute for Transport Studies.\nod (33 stars): An R package for working with origin-destination data.\nopentransportdata (21 stars): A curated list of open transport datasets for research, teaching, and to save the world.\nUK2GTFS (43 stars): Convert UK transport data (TransXchange / ATOC CIF) to GTFS format in R.\nrrsrr (7 stars): Reproducible road safety research with R: a practical user manual (book).\nNTEM2OD (5 stars): Scripts to convert the National Trip Ends Model (NTEM) into an Origin-Destination (OD) Matrix."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About — Data Science & Technology",
+    "objectID": "posts/2025-08-19-setting-up-quarto-blog/index.html",
+    "href": "posts/2025-08-19-setting-up-quarto-blog/index.html",
+    "title": "Setting Up a Quarto Website for Reproducible Research",
     "section": "",
-    "text": "About the Data Science & Technology theme\nThe Data Science & Technology theme at the Institute for Transport Studies (ITS), University of Leeds brings together researchers working at the intersection of data science, machine learning, and transport systems.\nOur mission is to develop methods and tools that improve transport planning, operations, and policy through better data, modelling, and technology.\nKey focus areas include:\n\nMobility data science and analytics\nTransport modelling and simulation\nMachine learning for transport applications\nIntelligent transport systems and automation\nSpatial data science and networks\n\nWe collaborate across the University and with external partners to ensure our research has academic rigor and real-world impact."
+    "text": "In the realm of scientific research, the importance of reproducibility and open collaboration cannot be overstated. Researchers are increasingly adopting tools that not only facilitate rigorous analysis but also enable transparent sharing of their work. Quarto, an open-source scientific and technical publishing system, stands out as an excellent platform for achieving these goals.\nQuarto allows you to combine prose, executable code (from R, Python, Julia, and more), and outputs into a single document, which can then be rendered into various formats like HTML, PDF, and Word. This inherent capability for integrating code and narrative makes it a powerful tool for reproducible research. When your analysis code is embedded directly within your publication, others can easily inspect, verify, and even re-run your work, fostering trust and accelerating scientific progress.\n\n\nHosting your Quarto-based blog or website on platforms like GitHub Pages offers significant advantages for open collaboration:\n\nVersion Control: GitHub provides robust version control, allowing you to track every change to your content and code. This ensures transparency and makes it easy to revert to previous versions if needed.\nAccessibility: Your research becomes globally accessible, breaking down barriers to knowledge sharing. Anyone with an internet connection can view your work, fostering a wider audience and potential collaborations.\nCommunity Engagement: GitHub’s features, such as issues and pull requests, enable direct engagement with your audience. Readers can report issues, suggest improvements, or even contribute directly to your content and code.\nReproducible Environment: By including your Quarto project files and potentially environment management files (like renv.lock for R or requirements.txt for Python), you can help others recreate the exact computational environment used for your analysis, ensuring true reproducibility.\n\n\n\n\nThis blog post itself is built using Quarto, demonstrating the ease with which you can set up a dynamic and reproducible online presence. The process involves:\n\nInitializing a Quarto Project: Starting with quarto create project to scaffold your website.\nStructuring Your Content: Organizing your posts within a posts/ directory and defining a listing page (blog.qmd) to display them.\nConfiguring Metadata: Using _quarto.yml for site-wide settings and posts/_metadata.yml for common post options, including integration with comment systems like Utterances.\nWriting Posts: Crafting your content in .qmd files, embedding code chunks, and leveraging Quarto’s rich features for scientific communication.\n\n\n\n\nIf you’re considering migrating an existing blog or website to Quarto, here are some valuable resources that detail the process:\n\nMigrating a blog to Quarto: Reverse engineering HTML to Markdown by David Schoch: This post offers insights into converting existing HTML content to Markdown for Quarto.\n\nhttps://blog.schochastics.net/posts/2024-01-02_migrating-to-quarto/\n\nMigrating from blogdown/Hugo to Quarto by Ben Harrap: A practical guide focusing on URL consistency and R Markdown to Quarto conversion.\n\nhttps://benharrap.com/post/2024-11-25-quarto-migration/\n\nReviving the blog with Quarto from the HoloViz blog: Discusses the rationale and process of migrating a Python-centric blog to Quarto.\n\nhttps://blog.holoviz.org/posts/quarto_migration/\n\nPorting a distill blog to quarto by Danielle Navarro: A detailed account of migrating from Distill, covering YAML changes and styling.\n\nhttps://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/\n\nMigrating this website from blogdown to Quarto by Monica Thieu: A general overview of the migration process, including handling executable code.\n\nhttps://www.monicathieu.com/posts/2024-12-29-setting-up-this-website.html\n\n\nBy embracing Quarto and hosting your work on platforms like GitHub, you contribute to a more open, transparent, and collaborative scientific ecosystem."
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications — Data Science & Technology",
+    "objectID": "posts/2025-08-19-setting-up-quarto-blog/index.html#the-power-of-quarto-for-scientific-communication",
+    "href": "posts/2025-08-19-setting-up-quarto-blog/index.html#the-power-of-quarto-for-scientific-communication",
+    "title": "Setting Up a Quarto Website for Reproducible Research",
     "section": "",
-    "text": "Recent Publications\nThis is a placeholder list of recent publications from the Data Science & Technology theme.\n\nAuthor A, Author B (2025). Title of paper. Journal of Transport Data.\nAuthor C, Author D (2024). Another paper. Transport Modelling Journal.\nAuthor E, Author F (2023). Spatial analysis of mobility. Journal of Spatial Data.\n\nFor the full list, we will provide a living publications page linked to a BibTeX file or external repository."
-  },
-  {
-    "objectID": "degrees.html",
-    "href": "degrees.html",
-    "title": "Research degrees — Data Science & Technology",
-    "section": "",
-    "text": "Research degrees\nWe have opportunities for prospective postgraduate researchers. Example projects and funding opportunities can be found in our PhD directory.\nPrevious topics have included:\n\nData-driven demand modelling\nMachine learning for traffic forecasting\nSpatial analysis of transport accessibility\nMobility behaviour modelling using large-scale datasets\n\nFor details on applying, funding, and supervisors, please see the ITS PhD pages or contact our postgraduate admissions team."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact — Data Science & Technology",
-    "section": "",
-    "text": "Contact Us\nInstitute for Transport Studies, University of Leeds\nAddress:\nInstitute for Transport Studies University of Leeds Leeds, LS2 9JT UK\nEmail: contact-its-dst@leeds.ac.uk\nVisit: https://its.leeds.ac.uk"
+    "text": "In the realm of scientific research, the importance of reproducibility and open collaboration cannot be overstated. Researchers are increasingly adopting tools that not only facilitate rigorous analysis but also enable transparent sharing of their work. Quarto, an open-source scientific and technical publishing system, stands out as an excellent platform for achieving these goals.\nQuarto allows you to combine prose, executable code (from R, Python, Julia, and more), and outputs into a single document, which can then be rendered into various formats like HTML, PDF, and Word. This inherent capability for integrating code and narrative makes it a powerful tool for reproducible research. When your analysis code is embedded directly within your publication, others can easily inspect, verify, and even re-run your work, fostering trust and accelerating scientific progress.\n\n\nHosting your Quarto-based blog or website on platforms like GitHub Pages offers significant advantages for open collaboration:\n\nVersion Control: GitHub provides robust version control, allowing you to track every change to your content and code. This ensures transparency and makes it easy to revert to previous versions if needed.\nAccessibility: Your research becomes globally accessible, breaking down barriers to knowledge sharing. Anyone with an internet connection can view your work, fostering a wider audience and potential collaborations.\nCommunity Engagement: GitHub’s features, such as issues and pull requests, enable direct engagement with your audience. Readers can report issues, suggest improvements, or even contribute directly to your content and code.\nReproducible Environment: By including your Quarto project files and potentially environment management files (like renv.lock for R or requirements.txt for Python), you can help others recreate the exact computational environment used for your analysis, ensuring true reproducibility.\n\n\n\n\nThis blog post itself is built using Quarto, demonstrating the ease with which you can set up a dynamic and reproducible online presence. The process involves:\n\nInitializing a Quarto Project: Starting with quarto create project to scaffold your website.\nStructuring Your Content: Organizing your posts within a posts/ directory and defining a listing page (blog.qmd) to display them.\nConfiguring Metadata: Using _quarto.yml for site-wide settings and posts/_metadata.yml for common post options, including integration with comment systems like Utterances.\nWriting Posts: Crafting your content in .qmd files, embedding code chunks, and leveraging Quarto’s rich features for scientific communication.\n\n\n\n\nIf you’re considering migrating an existing blog or website to Quarto, here are some valuable resources that detail the process:\n\nMigrating a blog to Quarto: Reverse engineering HTML to Markdown by David Schoch: This post offers insights into converting existing HTML content to Markdown for Quarto.\n\nhttps://blog.schochastics.net/posts/2024-01-02_migrating-to-quarto/\n\nMigrating from blogdown/Hugo to Quarto by Ben Harrap: A practical guide focusing on URL consistency and R Markdown to Quarto conversion.\n\nhttps://benharrap.com/post/2024-11-25-quarto-migration/\n\nReviving the blog with Quarto from the HoloViz blog: Discusses the rationale and process of migrating a Python-centric blog to Quarto.\n\nhttps://blog.holoviz.org/posts/quarto_migration/\n\nPorting a distill blog to quarto by Danielle Navarro: A detailed account of migrating from Distill, covering YAML changes and styling.\n\nhttps://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/\n\nMigrating this website from blogdown to Quarto by Monica Thieu: A general overview of the migration process, including handling executable code.\n\nhttps://www.monicathieu.com/posts/2024-12-29-setting-up-this-website.html\n\n\nBy embracing Quarto and hosting your work on platforms like GitHub, you contribute to a more open, transparent, and collaborative scientific ecosystem."
   }
 ]

@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Kilo Code">
+<meta name="dcterms.date" content="2025-08-19">
+<meta name="description" content="A guide to setting up a Quarto website, emphasizing its benefits for reproducible scientific research and open collaboration.">
 
-<title>paper – DST</title>
+<title>Setting Up a Quarto Website for Reproducible Research – DST</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2f9bc8108cc5788f896f6d8ac1f323a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-2f9bc8108cc5788f896f6d8ac1f323a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,11 +77,11 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">DST</span>
     </a>
   </div>
@@ -89,52 +92,52 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../software.html"> 
 <span class="menu-text">Open Source Software</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-science--technology" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Data Science &amp; Technology</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-science--technology">    
-        <li>
-    <a class="dropdown-item" href="./data-science.html">
- <span class="dropdown-text">Overview</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./about.html">
- <span class="dropdown-text">About</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../people.html"> 
+<span class="menu-text">People</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./people.html">
- <span class="dropdown-text">People</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./publications.html">
- <span class="dropdown-text">Publications</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./projects.html">
- <span class="dropdown-text">Projects</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../degrees.html"> 
+<span class="menu-text">Research degrees</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./degrees.html">
- <span class="dropdown-text">Research degrees</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../collaborations.html"> 
+<span class="menu-text">Collaborations</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./collaborations.html">
- <span class="dropdown-text">Collaborations</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./contact.html">
- <span class="dropdown-text">Contact</span></a>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../blog.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -143,19 +146,110 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Setting Up a Quarto Website for Reproducible Research</h1>
+                  <div>
+        <div class="description">
+          A guide to setting up a Quarto website, emphasizing its benefits for reproducible scientific research and open collaboration.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Quarto</div>
+                <div class="quarto-category">Reproducibility</div>
+                <div class="quarto-category">Open Science</div>
+                <div class="quarto-category">Blogging</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kilo Code </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 19, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<p>This is a placeholder for a paper.</p>
+
+<section id="the-power-of-quarto-for-scientific-communication" class="level2">
+<h2 class="anchored" data-anchor-id="the-power-of-quarto-for-scientific-communication">The Power of Quarto for Scientific Communication</h2>
+<p>In the realm of scientific research, the importance of reproducibility and open collaboration cannot be overstated. Researchers are increasingly adopting tools that not only facilitate rigorous analysis but also enable transparent sharing of their work. Quarto, an open-source scientific and technical publishing system, stands out as an excellent platform for achieving these goals.</p>
+<p>Quarto allows you to combine prose, executable code (from R, Python, Julia, and more), and outputs into a single document, which can then be rendered into various formats like HTML, PDF, and Word. This inherent capability for integrating code and narrative makes it a powerful tool for reproducible research. When your analysis code is embedded directly within your publication, others can easily inspect, verify, and even re-run your work, fostering trust and accelerating scientific progress.</p>
+<section id="why-host-your-reproducible-work-on-github-with-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="why-host-your-reproducible-work-on-github-with-quarto">Why Host Your Reproducible Work on GitHub with Quarto?</h3>
+<p>Hosting your Quarto-based blog or website on platforms like GitHub Pages offers significant advantages for open collaboration:</p>
+<ol type="1">
+<li><strong>Version Control:</strong> GitHub provides robust version control, allowing you to track every change to your content and code. This ensures transparency and makes it easy to revert to previous versions if needed.</li>
+<li><strong>Accessibility:</strong> Your research becomes globally accessible, breaking down barriers to knowledge sharing. Anyone with an internet connection can view your work, fostering a wider audience and potential collaborations.</li>
+<li><strong>Community Engagement:</strong> GitHub’s features, such as issues and pull requests, enable direct engagement with your audience. Readers can report issues, suggest improvements, or even contribute directly to your content and code.</li>
+<li><strong>Reproducible Environment:</strong> By including your Quarto project files and potentially environment management files (like <code>renv.lock</code> for R or <code>requirements.txt</code> for Python), you can help others recreate the exact computational environment used for your analysis, ensuring true reproducibility.</li>
+</ol>
+</section>
+<section id="setting-up-your-quarto-blog-a-quick-overview" class="level3">
+<h3 class="anchored" data-anchor-id="setting-up-your-quarto-blog-a-quick-overview">Setting Up Your Quarto Blog: A Quick Overview</h3>
+<p>This blog post itself is built using Quarto, demonstrating the ease with which you can set up a dynamic and reproducible online presence. The process involves:</p>
+<ol type="1">
+<li><strong>Initializing a Quarto Project:</strong> Starting with <code>quarto create project</code> to scaffold your website.</li>
+<li><strong>Structuring Your Content:</strong> Organizing your posts within a <code>posts/</code> directory and defining a listing page (<code>blog.qmd</code>) to display them.</li>
+<li><strong>Configuring Metadata:</strong> Using <code>_quarto.yml</code> for site-wide settings and <code>posts/_metadata.yml</code> for common post options, including integration with comment systems like Utterances.</li>
+<li><strong>Writing Posts:</strong> Crafting your content in <code>.qmd</code> files, embedding code chunks, and leveraging Quarto’s rich features for scientific communication.</li>
+</ol>
+</section>
+<section id="resources-for-migrating-to-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="resources-for-migrating-to-quarto">Resources for Migrating to Quarto</h3>
+<p>If you’re considering migrating an existing blog or website to Quarto, here are some valuable resources that detail the process:</p>
+<ul>
+<li><strong>Migrating a blog to Quarto: Reverse engineering HTML to Markdown</strong> by David Schoch: This post offers insights into converting existing HTML content to Markdown for Quarto.
+<ul>
+<li><a href="https://blog.schochastics.net/posts/2024-01-02_migrating-to-quarto/">https://blog.schochastics.net/posts/2024-01-02_migrating-to-quarto/</a></li>
+</ul></li>
+<li><strong>Migrating from blogdown/Hugo to Quarto</strong> by Ben Harrap: A practical guide focusing on URL consistency and R Markdown to Quarto conversion.
+<ul>
+<li><a href="https://benharrap.com/post/2024-11-25-quarto-migration/">https://benharrap.com/post/2024-11-25-quarto-migration/</a></li>
+</ul></li>
+<li><strong>Reviving the blog with Quarto</strong> from the HoloViz blog: Discusses the rationale and process of migrating a Python-centric blog to Quarto.
+<ul>
+<li><a href="https://blog.holoviz.org/posts/quarto_migration/">https://blog.holoviz.org/posts/quarto_migration/</a></li>
+</ul></li>
+<li><strong>Porting a distill blog to quarto</strong> by Danielle Navarro: A detailed account of migrating from Distill, covering YAML changes and styling.
+<ul>
+<li><a href="https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/">https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/</a></li>
+</ul></li>
+<li><strong>Migrating this website from blogdown to Quarto</strong> by Monica Thieu: A general overview of the migration process, including handling executable code.
+<ul>
+<li><a href="https://www.monicathieu.com/posts/2024-12-29-setting-up-this-website.html">https://www.monicathieu.com/posts/2024-12-29-setting-up-this-website.html</a></li>
+</ul></li>
+</ul>
+<p>By embracing Quarto and hosting your work on platforms like GitHub, you contribute to a more open, transparent, and collaborative scientific ecosystem.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -557,9 +651,11 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<script src="https://utteranc.es/client.js" repo="itsleeds/itsleeds-comments" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
+</script>
 </div> <!-- /content -->
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/itsleeds/dst/edit/main/paper.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/itsleeds/dst/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/itsleeds/dst/edit/main/posts/2025-08-19-setting-up-quarto-blog/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/itsleeds/dst/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

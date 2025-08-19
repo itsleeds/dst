@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>DST</title>
+<link>https://itsleeds.github.io/dst/blog.html</link>
+<atom:link href="https://itsleeds.github.io/dst/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Data Science and Transport Theme website for the University of Leeds</description>
+<generator>quarto-1.7.33</generator>
+<lastBuildDate>Tue, 19 Aug 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Setting Up a Quarto Website for Reproducible Research</title>
+  <dc:creator>Kilo Code</dc:creator>
+  <link>https://itsleeds.github.io/dst/posts/2025-08-19-setting-up-quarto-blog/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="the-power-of-quarto-for-scientific-communication" class="level2">
+<h2 class="anchored" data-anchor-id="the-power-of-quarto-for-scientific-communication">The Power of Quarto for Scientific Communication</h2>
+<p>In the realm of scientific research, the importance of reproducibility and open collaboration cannot be overstated. Researchers are increasingly adopting tools that not only facilitate rigorous analysis but also enable transparent sharing of their work. Quarto, an open-source scientific and technical publishing system, stands out as an excellent platform for achieving these goals.</p>
+<p>Quarto allows you to combine prose, executable code (from R, Python, Julia, and more), and outputs into a single document, which can then be rendered into various formats like HTML, PDF, and Word. This inherent capability for integrating code and narrative makes it a powerful tool for reproducible research. When your analysis code is embedded directly within your publication, others can easily inspect, verify, and even re-run your work, fostering trust and accelerating scientific progress.</p>
+<section id="why-host-your-reproducible-work-on-github-with-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="why-host-your-reproducible-work-on-github-with-quarto">Why Host Your Reproducible Work on GitHub with Quarto?</h3>
+<p>Hosting your Quarto-based blog or website on platforms like GitHub Pages offers significant advantages for open collaboration:</p>
+<ol type="1">
+<li><strong>Version Control:</strong> GitHub provides robust version control, allowing you to track every change to your content and code. This ensures transparency and makes it easy to revert to previous versions if needed.</li>
+<li><strong>Accessibility:</strong> Your research becomes globally accessible, breaking down barriers to knowledge sharing. Anyone with an internet connection can view your work, fostering a wider audience and potential collaborations.</li>
+<li><strong>Community Engagement:</strong> GitHub’s features, such as issues and pull requests, enable direct engagement with your audience. Readers can report issues, suggest improvements, or even contribute directly to your content and code.</li>
+<li><strong>Reproducible Environment:</strong> By including your Quarto project files and potentially environment management files (like <code>renv.lock</code> for R or <code>requirements.txt</code> for Python), you can help others recreate the exact computational environment used for your analysis, ensuring true reproducibility.</li>
+</ol>
+</section>
+<section id="setting-up-your-quarto-blog-a-quick-overview" class="level3">
+<h3 class="anchored" data-anchor-id="setting-up-your-quarto-blog-a-quick-overview">Setting Up Your Quarto Blog: A Quick Overview</h3>
+<p>This blog post itself is built using Quarto, demonstrating the ease with which you can set up a dynamic and reproducible online presence. The process involves:</p>
+<ol type="1">
+<li><strong>Initializing a Quarto Project:</strong> Starting with <code>quarto create project</code> to scaffold your website.</li>
+<li><strong>Structuring Your Content:</strong> Organizing your posts within a <code>posts/</code> directory and defining a listing page (<code>blog.qmd</code>) to display them.</li>
+<li><strong>Configuring Metadata:</strong> Using <code>_quarto.yml</code> for site-wide settings and <code>posts/_metadata.yml</code> for common post options, including integration with comment systems like Utterances.</li>
+<li><strong>Writing Posts:</strong> Crafting your content in <code>.qmd</code> files, embedding code chunks, and leveraging Quarto’s rich features for scientific communication.</li>
+</ol>
+</section>
+<section id="resources-for-migrating-to-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="resources-for-migrating-to-quarto">Resources for Migrating to Quarto</h3>
+<p>If you’re considering migrating an existing blog or website to Quarto, here are some valuable resources that detail the process:</p>
+<ul>
+<li><strong>Migrating a blog to Quarto: Reverse engineering HTML to Markdown</strong> by David Schoch: This post offers insights into converting existing HTML content to Markdown for Quarto.
+<ul>
+<li><a href="https://blog.schochastics.net/posts/2024-01-02_migrating-to-quarto/">https://blog.schochastics.net/posts/2024-01-02_migrating-to-quarto/</a></li>
+</ul></li>
+<li><strong>Migrating from blogdown/Hugo to Quarto</strong> by Ben Harrap: A practical guide focusing on URL consistency and R Markdown to Quarto conversion.
+<ul>
+<li><a href="https://benharrap.com/post/2024-11-25-quarto-migration/">https://benharrap.com/post/2024-11-25-quarto-migration/</a></li>
+</ul></li>
+<li><strong>Reviving the blog with Quarto</strong> from the HoloViz blog: Discusses the rationale and process of migrating a Python-centric blog to Quarto.
+<ul>
+<li><a href="https://blog.holoviz.org/posts/quarto_migration/">https://blog.holoviz.org/posts/quarto_migration/</a></li>
+</ul></li>
+<li><strong>Porting a distill blog to quarto</strong> by Danielle Navarro: A detailed account of migrating from Distill, covering YAML changes and styling.
+<ul>
+<li><a href="https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/">https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/</a></li>
+</ul></li>
+<li><strong>Migrating this website from blogdown to Quarto</strong> by Monica Thieu: A general overview of the migration process, including handling executable code.
+<ul>
+<li><a href="https://www.monicathieu.com/posts/2024-12-29-setting-up-this-website.html">https://www.monicathieu.com/posts/2024-12-29-setting-up-this-website.html</a></li>
+</ul></li>
+</ul>
+<p>By embracing Quarto and hosting your work on platforms like GitHub, you contribute to a more open, transparent, and collaborative scientific ecosystem.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Quarto</category>
+  <category>Reproducibility</category>
+  <category>Open Science</category>
+  <category>Blogging</category>
+  <guid>https://itsleeds.github.io/dst/posts/2025-08-19-setting-up-quarto-blog/</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://itsleeds.github.io/dst/posts/2025-08-19-setting-up-quarto-blog/featured-image.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Announcing the Transport Data Minihack 2026</title>
+  <dc:creator>Robin Lovelace</dc:creator>
+  <link>https://itsleeds.github.io/dst/posts/2025-08-19-transport-data-minihack-2026/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="empowering-data-skills-at-its-the-transport-data-minihack-2026" class="level2">
+<h2 class="anchored" data-anchor-id="empowering-data-skills-at-its-the-transport-data-minihack-2026">Empowering Data Skills at ITS: The Transport Data Minihack 2026</h2>
+<p>The Institute for Transport Studies (ITS) is excited to announce the <strong>Transport Data Minihack 2026</strong>, an event designed to foster data, coding, and reproducible research skills among ITS staff and students. This mini-hackathon provides a unique opportunity to delve into transport datasets, enhance technical abilities, and collaborate on real-world data challenges.</p>
+<p>Scheduled for <strong>Thursday, May 7th, 2026</strong>, the event aims to create a supportive environment for participants, especially ITS MSc students working on their dissertation projects. It’s a chance to get hands-on support with importing, processing, and visualizing data, and to explore the power of data science techniques in the context of transport.</p>
+<section id="objectives-of-the-minihack" class="level3">
+<h3 class="anchored" data-anchor-id="objectives-of-the-minihack">Objectives of the Minihack:</h3>
+<ul>
+<li><strong>Supportive Learning:</strong> Provide a space for participants to ask questions about working with datasets and applying data science techniques to transport data.</li>
+<li><strong>Dissertation Assistance:</strong> Offer direct support for importing datasets for MSc dissertations and other research projects.</li>
+<li><strong>Data Wrangling:</strong> Focus on practical skills using tools like the <code>tidyverse</code> R package for data manipulation.</li>
+<li><strong>Data Visualization:</strong> Enhance general data visualization skills and gain specific experience with various transport data types.</li>
+<li><strong>Open Science Promotion:</strong> Showcase the potential of open data (transparency, participation, research) and reproducible/open workflows.</li>
+</ul>
+</section>
+<section id="who-can-join" class="level3">
+<h3 class="anchored" data-anchor-id="who-can-join">Who Can Join?</h3>
+<p>The Minihack is open to all staff and students at ITS. If you are not based at the University of Leeds but are interested in participating, please contact the organizers (Robin Lovelace) for more information.</p>
+</section>
+<section id="schedule-highlights" class="level3">
+<h3 class="anchored" data-anchor-id="schedule-highlights">Schedule Highlights:</h3>
+<p>The event will feature a structured yet flexible schedule to maximize learning and collaboration:</p>
+<ul>
+<li><strong>13:00 - 13:30:</strong> Introduction to importing, processing, and visualizing data with RStudio, including an overview of RStudio and Quarto for reproducible reports, and an example with origin-destination data in Leeds.</li>
+<li><strong>13:30 - 14:00:</strong> Dedicated time for importing datasets and installing necessary packages, with support available for any issues.</li>
+<li><strong>14:00 - 14:05:</strong> Short break.</li>
+<li><strong>14:05 - 15:00:</strong> Solo working sessions on datasets, with organizers available for questions and support.</li>
+<li><strong>15:15 - 15:45:</strong> Optional presentations of results, offering participants a chance to share their learnings.</li>
+<li><strong>15:45 - 16:00:</strong> Networking and idea-sharing session.</li>
+</ul>
+</section>
+<section id="prizes-and-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="prizes-and-challenges">Prizes and Challenges:</h3>
+<p>Participants will have the opportunity to win a copy of “Geocomputation with Python” or “Geocomputation with R (second edition)”. Prizes will be awarded based on:</p>
+<ul>
+<li>Best technical implementation and code.</li>
+<li>Most creative or impactful use of data.</li>
+</ul>
+<p>Challenges for participants include writing code to automatically download and import datasets, subsetting data, and creating Quarto reports summarizing their analysis.</p>
+<p>Don’t miss this opportunity to enhance your data skills and contribute to the vibrant research community at ITS! Sign-up details can be found <a href="https://forms.office.com/e/A1ABvMuJAG">here</a>.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Datahack</category>
+  <category>Transport Data</category>
+  <category>Reproducibility</category>
+  <category>ITS Leeds</category>
+  <guid>https://itsleeds.github.io/dst/posts/2025-08-19-transport-data-minihack-2026/</guid>
+  <pubDate>Thu, 07 Aug 2025 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
