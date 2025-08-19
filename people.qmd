@@ -7,12 +7,12 @@ format: html
 
 ## Staff
 
-- [Dr Zahara Batool](https://environment.leeds.ac.uk/transport/staff/2641/dr-zahara-batool)
 - [Dr Chiara Calastri](https://environment.leeds.ac.uk/transport/staff/921/dr-chiara-calastri)
 - [Hsuan Chao](https://environment.leeds.ac.uk/transport/staff/21237/hsuan-chao)
 - [Prof Haibo Chen](https://environment.leeds.ac.uk/transport/staff/923/professor-haibo-chen)
 - [Prof Charisma Choudhury](https://environment.leeds.ac.uk/transport/staff/924/professor-charisma-choudhury)
 - [Prof Thijs Dekker](https://environment.leeds.ac.uk/transport/staff/929/professor-thijs-dekker)
+- [Dr Li-ke Jiang](https://environment.leeds.ac.uk/transport/staff/2506/dr-li-ke-jiang)
 - [Prof Susan Grant-Muller](https://environment.leeds.ac.uk/transport/staff/932/professor-susan-grant-muller)
 - [Prof Robin Lovelace](https://environment.leeds.ac.uk/transport/staff/953/professor-robin-lovelace): Professor of Transport Data Science
 - [Dr Malcolm Morgan](https://environment.leeds.ac.uk/transport/staff/964/dr-malcolm-morgan)
