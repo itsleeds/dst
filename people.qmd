@@ -23,6 +23,7 @@ format: html
 - [Dr Chris Rushton](https://environment.leeds.ac.uk/transport/staff/8835/dr-chris-rushton)
 - [Dr Angelica Salas Jones](https://environment.leeds.ac.uk/transport/staff/9887/dr-angelica-salas-jones)
 - [Dr Joey Talbot](https://environment.leeds.ac.uk/transport/staff/8838/dr-joey-talbot)
+- [Dr Caroline Tait](https://environment.leeds.ac.uk/staff/12673/)
 - [Dr James Tate](https://environment.leeds.ac.uk/transport/staff/980/dr-james-tate)
 - [Eugeni Vidal](https://www.linkedin.com/in/eugeni-vidal-tortosa-770928228/)
 - [Zhao Wang](https://environment.leeds.ac.uk/transport/staff/12330/zhao-wang)
