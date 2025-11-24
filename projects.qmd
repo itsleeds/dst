@@ -3,12 +3,30 @@ title: "Projects — Data Science & Technology"
 format: html
 ---
 
-# Current Research Projects
+## Current Research Projects
 
-A placeholder listing of active research projects within the theme.
+Our theme members are involved in a wide range of research projects, often in collaboration with the [Leeds Institute for Data Analytics (LIDA)](https://lida.leeds.ac.uk/).
 
-- Project A: Real-time traffic prediction (EPSRC-funded)
-- Project B: Automated public transport modelling (industry partnership)
-- Project C: Mobility equity and accessibility (ESRC collaboration)
+### Propensity to Cycle Tool (PCT)
+The [PCT](https://www.pct.bike/) is a strategic planning tool for cycling infrastructure. It was designed to assist transport planners and policy makers to prioritise investments and interventions to promote cycling. The project involves open access models and has revolutionised strategic cycle planning in England and Wales.
 
-Project pages will be expanded with abstracts, funding details, and contacts.
+<!-- ## Active Travel England Data Science
+Working with [Active Travel England](https://www.gov.uk/government/organisations/active-travel-england) to develop data and digital capacity, aiming to improve the evidence base for active travel investment and policy. -->
+
+### Network Planning Tools for Scotland (NPT.scot)
+The [NPT.scot](https://npt.scot) project develops open network planning tools to support better transport planning across Scotland, with a focus on accessibility, active travel, and low-carbon mobility options.
+The code is open source and available on [GitHub](https://github.com/nptscot).
+See more on the [University of Leeds website](https://environment.leeds.ac.uk/transport/dir-record/research-projects/2058/network-planning-tools-for-scotland-nptscot).
+
+Other projects: TBC.
+
+<!-- ## Choice Modelling and Behaviour
+Led by the [Choice Modelling Centre](https://cmc.leeds.ac.uk/), research in this area focuses on leveraging emerging data sources for travel behaviour modelling, particularly in the Global South and for sustainability applications.
+
+## Urban Air Quality and Emissions
+Research into the environmental impact of road transport, including urban air quality, low emission vehicles, and vehicle emission remote sensing. This work involves developing new approaches to survey and model emission performance.
+
+## Other Data Science Applications
+- **Consumer Behaviour:** Analyzing decision-making using eye-tracking data.
+- **Traffic Safety:** Investigating driver behaviours and traffic safety culture.
+- **Open Transport Data:** Creating curated lists and tools for open transport datasets. -->

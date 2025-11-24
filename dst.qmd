@@ -1,0 +1,12 @@
+---
+format: docx
+---
+
+
+{{< include index.qmd >}}
+
+<!-- {{< include about.qmd >}} -->
+
+{{< include people.qmd >}}
+
+{{< include projects.qmd >}}

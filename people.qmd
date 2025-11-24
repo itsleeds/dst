@@ -5,17 +5,55 @@ format: html
 
 <!-- Below are staff and doctoral researchers at ITS Leeds with a focus on Artificial Intelligence, Machine Learning, and Data Science. 🤖📊 -->
 
-## Staff
+Other people: TBC
 
-- [Prof Robin Lovelace](https://environment.leeds.ac.uk/transport/staff/953/professor-robin-lovelace): Professor of Transport Data Science
-- [Prof Susan Grant-Muller]()
-- [Prof Charisma Choudhury]() 
-- [Dr James Tate]()
-- [Dr Chris Rushton]()
-- [Dr Ibrahim Ozturk]()
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
 
-## PhD students
+library(reactable)
+library(htmltools)
 
-- [Hussein Mahfouz]()
-- [Juan Pablo Zamora Fonseca]()
+# Read data, ensuring column names are preserved
+people <- read.csv("assets/people.csv", check.names = FALSE, stringsAsFactors = FALSE)
+
+# Select columns to display
+cols_to_show <- c("Name", "Position", "Research Group", "Email Address")
+
+# reactable(
+#   people[, cols_to_show],
+#   filterable = TRUE,
+#   searchable = TRUE,
+#   defaultPageSize = 20,
+#   columns = list(
+#     Name = colDef(
+#       cell = function(value, index) {
+#         # Render as link using the hidden 'Web page' column
+#         url <- people[index, "Web page"]
+#         if (!is.na(url) && url != "") {
+#           tags$a(href = url, target = "_blank", as.character(value))
+#         } else {
+#           as.character(value)
+#         }
+#       }
+#     ),
+#     `Email Address` = colDef(
+#       cell = function(value) {
+#         if (!is.na(value) && value != "") {
+#           tags$a(href = paste0("mailto:", value), value)
+#         } else {
+#           value
+#         }
+#       }
+#     )
+#   )
+# )
+knitr::kable(
+  people[, cols_to_show],
+  format = "html",
+  escape = FALSE,
+  table.attr = 'class="table table-striped"'
+)
+```
 

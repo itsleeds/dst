@@ -5,6 +5,29 @@ format: html
 
 # Open Source Software
 
-This page lists open source software developed by members of the Data Science & Technology theme.
+The [ITS Leeds GitHub organization](https://github.com/ITSLeeds) hosts numerous open source tools for transport data science. Below are some of our key packages.
 
-*More content to be added here.*
+## [stplanr](https://github.com/ropensci/stplanr)
+**Sustainable Transport Planning with R**
+
+A package for solving common problems in transport planning and modelling, such as downloading and cleaning transport datasets, creating desire lines, and working with origin-destination data. (Hosted by rOpenSci but developed by ITS researchers).
+
+## [pct](https://github.com/ITSLeeds/pct)
+**Propensity to Cycle Tool Data**
+
+Functions to access and reproduce data from the Propensity to Cycle Tool (PCT), making the data more accessible for research and educational purposes.
+
+## [od](https://github.com/ITSLeeds/od)
+**Origin-Destination Data Analysis**
+
+An R package specifically designed for working with and manipulating origin-destination data, a core component of transport modelling.
+
+## [UK2GTFS](https://github.com/ITSLeeds/UK2GTFS)
+**Convert UK Transport Data to GTFS**
+
+A tool to convert UK transport data formats (like TransXchange and ATOC CIF) into the standard General Transit Feed Specification (GTFS) format.
+
+## [opentransportdata](https://github.com/ITSLeeds/opentransportdata)
+**Open Transport Data List**
+
+A curated list of open transport datasets for research, teaching, and development.
