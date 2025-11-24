@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2f9bc8108cc5788f896f6d8ac1f323a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ee47912cae73dc7932e3cc93c52697b6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -169,17 +170,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="current-research-projects" class="level1">
-<h1>Current Research Projects</h1>
-<p>A placeholder listing of active research projects within the theme.</p>
-<ul>
-<li>Project A: Real-time traffic prediction (EPSRC-funded)</li>
-<li>Project B: Automated public transport modelling (industry partnership)</li>
-<li>Project C: Mobility equity and accessibility (ESRC collaboration)</li>
-</ul>
-<p>Project pages will be expanded with abstracts, funding details, and contacts.</p>
+<section id="current-research-projects" class="level2">
+<h2 class="anchored" data-anchor-id="current-research-projects">Current Research Projects</h2>
+<p>Our theme members are involved in a wide range of research projects, often in collaboration with the <a href="https://lida.leeds.ac.uk/">Leeds Institute for Data Analytics (LIDA)</a>.</p>
+<section id="propensity-to-cycle-tool-pct" class="level3">
+<h3 class="anchored" data-anchor-id="propensity-to-cycle-tool-pct">Propensity to Cycle Tool (PCT)</h3>
+<p>The <a href="https://www.pct.bike/">PCT</a> is a strategic planning tool for cycling infrastructure. It was designed to assist transport planners and policy makers to prioritise investments and interventions to promote cycling. The project involves open access models and has revolutionised strategic cycle planning in England and Wales.</p>
+<!-- ## Active Travel England Data Science
+Working with [Active Travel England](https://www.gov.uk/government/organisations/active-travel-england) to develop data and digital capacity, aiming to improve the evidence base for active travel investment and policy. -->
+</section>
+<section id="network-planning-tools-for-scotland-npt.scot" class="level3">
+<h3 class="anchored" data-anchor-id="network-planning-tools-for-scotland-npt.scot">Network Planning Tools for Scotland (NPT.scot)</h3>
+<p>The <a href="https://npt.scot">NPT.scot</a> project develops open network planning tools to support better transport planning across Scotland, with a focus on accessibility, active travel, and low-carbon mobility options. The code is open source and available on <a href="https://github.com/nptscot">GitHub</a>. See more on the <a href="https://environment.leeds.ac.uk/transport/dir-record/research-projects/2058/network-planning-tools-for-scotland-nptscot">University of Leeds website</a>.</p>
+<p>Other projects: TBC.</p>
+<!-- ## Choice Modelling and Behaviour
+Led by the [Choice Modelling Centre](https://cmc.leeds.ac.uk/), research in this area focuses on leveraging emerging data sources for travel behaviour modelling, particularly in the Global South and for sustainability applications.
+
+## Urban Air Quality and Emissions
+Research into the environmental impact of road transport, including urban air quality, low emission vehicles, and vehicle emission remote sensing. This work involves developing new approaches to survey and model emission performance.
+
+## Other Data Science Applications
+- **Consumer Behaviour:** Analyzing decision-making using eye-tracking data.
+- **Traffic Safety:** Investigating driver behaviours and traffic safety culture.
+- **Open Transport Data:** Creating curated lists and tools for open transport datasets. -->
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -234,13 +250,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

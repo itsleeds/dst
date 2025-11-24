@@ -9,7 +9,7 @@
 <link>https://itsleeds.github.io/dst/blog.html</link>
 <atom:link href="https://itsleeds.github.io/dst/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Data Science and Transport Theme website for the University of Leeds</description>
-<generator>quarto-1.7.33</generator>
+<generator>quarto-1.8.26</generator>
 <lastBuildDate>Tue, 19 Aug 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Setting Up a Quarto Website for Reproducible Research</title>

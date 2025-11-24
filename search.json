@@ -39,7 +39,21 @@
     "href": "publications.html",
     "title": "Publications — Data Science & Technology",
     "section": "",
-    "text": "Recent Publications\nThis is a placeholder list of recent publications from the Data Science & Technology theme.\n\nAuthor A, Author B (2025). Title of paper. Journal of Transport Data.\nAuthor C, Author D (2024). Another paper. Transport Modelling Journal.\nAuthor E, Author F (2023). Spatial analysis of mobility. Journal of Spatial Data.\n\nFor the full list, we will provide a living publications page linked to a BibTeX file or external repository."
+    "text": "This list highlights recent research outputs from our theme members.\n\n\n\n2024: Zannat, K. E., Choudhury, C. F., Hess, S., & Watling, D. Investigating the relative accuracy of GPS, GSM and CDR data for inferring spatiotemporal travel trajectories. IET Intelligent Transport Systems.\n2023: Ozturk, I., & Merat, N. Driving at night and how it’s influenced by perceived driver skills. Proceedings of the International Conference on Traffic and Transport Psychology.\n2023: Lovelace, R., et al. Propensity to Cycle Tool: An open source transport planning system. Journal of Transport and Land Use.\n\n\n\n\nWe have a Python script (fetch_papers.py) to fetch the latest publications from Google Scholar.\nNote: Google Scholar frequently rate-limits automated requests (Error 429). For a complete and reliable list, we recommend visiting the researchers’ profiles directly:\n\nRobin Lovelace\nCharisma Choudhury\nSusan Grant-Muller\n\n\n\n\nInstall dependencies: pip install -r requirements.txt\nRun the script: python fetch_papers.py"
+  },
+  {
+    "objectID": "publications.html#selected-recent-papers",
+    "href": "publications.html#selected-recent-papers",
+    "title": "Publications — Data Science & Technology",
+    "section": "",
+    "text": "2024: Zannat, K. E., Choudhury, C. F., Hess, S., & Watling, D. Investigating the relative accuracy of GPS, GSM and CDR data for inferring spatiotemporal travel trajectories. IET Intelligent Transport Systems.\n2023: Ozturk, I., & Merat, N. Driving at night and how it’s influenced by perceived driver skills. Proceedings of the International Conference on Traffic and Transport Psychology.\n2023: Lovelace, R., et al. Propensity to Cycle Tool: An open source transport planning system. Journal of Transport and Land Use."
+  },
+  {
+    "objectID": "publications.html#automated-list-generation",
+    "href": "publications.html#automated-list-generation",
+    "title": "Publications — Data Science & Technology",
+    "section": "",
+    "text": "We have a Python script (fetch_papers.py) to fetch the latest publications from Google Scholar.\nNote: Google Scholar frequently rate-limits automated requests (Error 429). For a complete and reliable list, we recommend visiting the researchers’ profiles directly:\n\nRobin Lovelace\nCharisma Choudhury\nSusan Grant-Muller\n\n\n\n\nInstall dependencies: pip install -r requirements.txt\nRun the script: python fetch_papers.py"
   },
   {
     "objectID": "about.html",
@@ -53,7 +67,7 @@
     "href": "index.html",
     "title": "Data Science and Technology",
     "section": "",
-    "text": "Data Science and Technology (DST) is a theme within the Institute for Transport Studies (ITS) at the University of Leeds. The theme joins-up data-intensive research across ITS research groups, applying data science and machine learning techniques to transport and mobility challenges."
+    "text": "Data Science and Technology (DST) is a theme within the Institute for Transport Studies at the University of Leeds that applies new digital technologies to answer research questions and inform decision-making in transport planning, operations, and policy. The theme brings together experts in data science, transport modelling, and the use of broadly-defined artificial intelligence techniques to address challenges in the transport sector. Although the focus is on new methods and technologies, our aim has an important social dimension: we believe in reducing barriers to accessing and using data and digital tools to improve transport systems for all users.\nOur work covers a range of topics, including:\n\nThe application of data science techniques to transport research questions and applications\nThe development of transport methods, models, and tools to support better decision-making\nThe use of computer vision and other machine learning techniques to extract insights from transport-related datasets\nThe use of artificial intelligence to improve transport systems"
   },
   {
     "objectID": "people.html",
@@ -81,7 +95,14 @@
     "href": "projects.html",
     "title": "Projects — Data Science & Technology",
     "section": "",
-    "text": "Current Research Projects\nA placeholder listing of active research projects within the theme.\n\nProject A: Real-time traffic prediction (EPSRC-funded)\nProject B: Automated public transport modelling (industry partnership)\nProject C: Mobility equity and accessibility (ESRC collaboration)\n\nProject pages will be expanded with abstracts, funding details, and contacts."
+    "text": "Our theme members are involved in a wide range of research projects, often in collaboration with the Leeds Institute for Data Analytics (LIDA).\n\n\nThe PCT is a strategic planning tool for cycling infrastructure. It was designed to assist transport planners and policy makers to prioritise investments and interventions to promote cycling. The project involves open access models and has revolutionised strategic cycle planning in England and Wales.\n\n\n\n\nThe NPT.scot project develops open network planning tools to support better transport planning across Scotland, with a focus on accessibility, active travel, and low-carbon mobility options. The code is open source and available on GitHub. See more on the University of Leeds website.\nOther projects: TBC."
+  },
+  {
+    "objectID": "projects.html#current-research-projects",
+    "href": "projects.html#current-research-projects",
+    "title": "Projects — Data Science & Technology",
+    "section": "",
+    "text": "Our theme members are involved in a wide range of research projects, often in collaboration with the Leeds Institute for Data Analytics (LIDA).\n\n\nThe PCT is a strategic planning tool for cycling infrastructure. It was designed to assist transport planners and policy makers to prioritise investments and interventions to promote cycling. The project involves open access models and has revolutionised strategic cycle planning in England and Wales.\n\n\n\n\nThe NPT.scot project develops open network planning tools to support better transport planning across Scotland, with a focus on accessibility, active travel, and low-carbon mobility options. The code is open source and available on GitHub. See more on the University of Leeds website.\nOther projects: TBC."
   },
   {
     "objectID": "collaborations.html",
@@ -95,14 +116,28 @@
     "href": "software.html",
     "title": "Open Source Software",
     "section": "",
-    "text": "This page lists open source software developed by members of the Data Science & Technology theme.\n\n\n\nHere are some popular open-source repositories from the ITSLeeds GitHub organization:\n\npct (20 stars): Get and reproduce data from the Propensity to Cycle Tool (PCT).\ntds (51 stars): Transport Data Science, a post-graduate module at the University of Leeds’ Institute for Transport Studies.\nod (33 stars): An R package for working with origin-destination data.\nopentransportdata (21 stars): A curated list of open transport datasets for research, teaching, and to save the world.\nUK2GTFS (43 stars): Convert UK transport data (TransXchange / ATOC CIF) to GTFS format in R.\nrrsrr (7 stars): Reproducible road safety research with R: a practical user manual (book).\nNTEM2OD (5 stars): Scripts to convert the National Trip Ends Model (NTEM) into an Origin-Destination (OD) Matrix."
+    "text": "The Data Science & Technology theme at ITS develops and maintains open source software tools for transport research, planning, and analysis. Our software is freely available and supports reproducible research and practical applications.\n\n\n\n\n\nWebsite: www.pct.bike\nDescription: Strategic planning tool for cycling infrastructure used across England and Wales\nCode: Open source R packages and web application\n\n\n\n\n\nWebsite: npt.scot\nDescription: Open network planning tools for transport planning in Scotland\nFocus: Accessibility, active travel, and low-carbon mobility\n\n\n\n\nOur team develops and maintains several R packages for transport data science:\n\n\nSustainable Transport Planning with R\nA package for solving common problems in transport planning and modelling, such as downloading and cleaning transport datasets, creating desire lines, and working with origin-destination data. (Hosted by rOpenSci but developed by ITS researchers).\n\n\n\nPropensity to Cycle Tool Data\nFunctions to access and reproduce data from the Propensity to Cycle Tool (PCT), making the data more accessible for research and educational purposes.\n\n\n\nOrigin-Destination Data Analysis\nAn R package specifically designed for working with and manipulating origin-destination data, a core component of transport modelling.\n\n\n\nConvert UK Transport Data to GTFS\nA tool to convert UK transport data formats (like TransXchange and ATOC CIF) into the standard General Transit Feed Specification (GTFS) format.\n\n\n\nRoad Safety Data Analysis\nAn R package for working with UK road collision data from the STATS19 database.\n\n\n\nOpenStreetMap Data Processing\nTools for downloading and processing OpenStreetMap data for transport analysis.\n\n\n\n\n\n\nOpen Transport Data List\nA curated list of open transport datasets for research, teaching, and to save the world.\n\n\n\nTransport Data Science\nMaterials for the Transport Data Science post-graduate module at the University of Leeds’ Institute for Transport Studies.\n\n\n\nReproducible Road Safety Research with R\nA practical user manual (book) for conducting reproducible road safety research using R.\n\n\n\nNTEM to OD Matrix Converter\nScripts to convert the National Trip Ends Model (NTEM) into an Origin-Destination (OD) Matrix.\n\n\n\n\n\nWe welcome contributions to our open source projects. Visit our GitHub repositories to get involved, report issues, or suggest improvements.\n\n\n\nFor questions about our software or collaboration opportunities, please contact us."
   },
   {
-    "objectID": "software.html#popular-itsleeds-github-repositories-5-stars",
-    "href": "software.html#popular-itsleeds-github-repositories-5-stars",
+    "objectID": "software.html#key-software-projects",
+    "href": "software.html#key-software-projects",
     "title": "Open Source Software",
     "section": "",
-    "text": "Here are some popular open-source repositories from the ITSLeeds GitHub organization:\n\npct (20 stars): Get and reproduce data from the Propensity to Cycle Tool (PCT).\ntds (51 stars): Transport Data Science, a post-graduate module at the University of Leeds’ Institute for Transport Studies.\nod (33 stars): An R package for working with origin-destination data.\nopentransportdata (21 stars): A curated list of open transport datasets for research, teaching, and to save the world.\nUK2GTFS (43 stars): Convert UK transport data (TransXchange / ATOC CIF) to GTFS format in R.\nrrsrr (7 stars): Reproducible road safety research with R: a practical user manual (book).\nNTEM2OD (5 stars): Scripts to convert the National Trip Ends Model (NTEM) into an Origin-Destination (OD) Matrix."
+    "text": "Website: www.pct.bike\nDescription: Strategic planning tool for cycling infrastructure used across England and Wales\nCode: Open source R packages and web application\n\n\n\n\n\nWebsite: npt.scot\nDescription: Open network planning tools for transport planning in Scotland\nFocus: Accessibility, active travel, and low-carbon mobility\n\n\n\n\nOur team develops and maintains several R packages for transport data science:\n\n\nSustainable Transport Planning with R\nA package for solving common problems in transport planning and modelling, such as downloading and cleaning transport datasets, creating desire lines, and working with origin-destination data. (Hosted by rOpenSci but developed by ITS researchers).\n\n\n\nPropensity to Cycle Tool Data\nFunctions to access and reproduce data from the Propensity to Cycle Tool (PCT), making the data more accessible for research and educational purposes.\n\n\n\nOrigin-Destination Data Analysis\nAn R package specifically designed for working with and manipulating origin-destination data, a core component of transport modelling.\n\n\n\nConvert UK Transport Data to GTFS\nA tool to convert UK transport data formats (like TransXchange and ATOC CIF) into the standard General Transit Feed Specification (GTFS) format.\n\n\n\nRoad Safety Data Analysis\nAn R package for working with UK road collision data from the STATS19 database.\n\n\n\nOpenStreetMap Data Processing\nTools for downloading and processing OpenStreetMap data for transport analysis.\n\n\n\n\n\n\nOpen Transport Data List\nA curated list of open transport datasets for research, teaching, and to save the world.\n\n\n\nTransport Data Science\nMaterials for the Transport Data Science post-graduate module at the University of Leeds’ Institute for Transport Studies.\n\n\n\nReproducible Road Safety Research with R\nA practical user manual (book) for conducting reproducible road safety research using R.\n\n\n\nNTEM to OD Matrix Converter\nScripts to convert the National Trip Ends Model (NTEM) into an Origin-Destination (OD) Matrix."
+  },
+  {
+    "objectID": "software.html#contributing",
+    "href": "software.html#contributing",
+    "title": "Open Source Software",
+    "section": "",
+    "text": "We welcome contributions to our open source projects. Visit our GitHub repositories to get involved, report issues, or suggest improvements."
+  },
+  {
+    "objectID": "software.html#contact",
+    "href": "software.html#contact",
+    "title": "Open Source Software",
+    "section": "",
+    "text": "For questions about our software or collaboration opportunities, please contact us."
   },
   {
     "objectID": "posts/2025-08-19-setting-up-quarto-blog/index.html",

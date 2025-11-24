@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2f9bc8108cc5788f896f6d8ac1f323a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ee47912cae73dc7932e3cc93c52697b6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -171,15 +172,34 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="recent-publications" class="level1">
 <h1>Recent Publications</h1>
-<p>This is a placeholder list of recent publications from the Data Science &amp; Technology theme.</p>
+<p>This list highlights recent research outputs from our theme members.</p>
+<section id="selected-recent-papers" class="level2">
+<h2 class="anchored" data-anchor-id="selected-recent-papers">Selected Recent Papers</h2>
 <ul>
-<li>Author A, Author B (2025). Title of paper. Journal of Transport Data.</li>
-<li>Author C, Author D (2024). Another paper. Transport Modelling Journal.</li>
-<li>Author E, Author F (2023). Spatial analysis of mobility. Journal of Spatial Data.</li>
+<li><strong>2024</strong>: Zannat, K. E., Choudhury, C. F., Hess, S., &amp; Watling, D. <em>Investigating the relative accuracy of GPS, GSM and CDR data for inferring spatiotemporal travel trajectories</em>. IET Intelligent Transport Systems.</li>
+<li><strong>2023</strong>: Ozturk, I., &amp; Merat, N. <em>Driving at night and how it’s influenced by perceived driver skills</em>. Proceedings of the International Conference on Traffic and Transport Psychology.</li>
+<li><strong>2023</strong>: Lovelace, R., et al.&nbsp;<em>Propensity to Cycle Tool: An open source transport planning system</em>. Journal of Transport and Land Use.</li>
 </ul>
-<p>For the full list, we will provide a living publications page linked to a BibTeX file or external repository.</p>
+</section>
+<section id="automated-list-generation" class="level2">
+<h2 class="anchored" data-anchor-id="automated-list-generation">Automated List Generation</h2>
+<p>We have a Python script (<code>fetch_papers.py</code>) to fetch the latest publications from Google Scholar.</p>
+<p><strong>Note:</strong> Google Scholar frequently rate-limits automated requests (Error 429). For a complete and reliable list, we recommend visiting the researchers’ profiles directly:</p>
+<ul>
+<li><a href="https://scholar.google.com/scholar?q=Robin+Lovelace">Robin Lovelace</a></li>
+<li><a href="https://scholar.google.com/scholar?q=Charisma+Choudhury">Charisma Choudhury</a></li>
+<li><a href="https://scholar.google.com/scholar?q=Susan+Grant-Muller">Susan Grant-Muller</a></li>
+</ul>
+<section id="running-the-script-dev-only" class="level3">
+<h3 class="anchored" data-anchor-id="running-the-script-dev-only">Running the script (Dev only)</h3>
+<ol type="1">
+<li>Install dependencies: <code>pip install -r requirements.txt</code></li>
+<li>Run the script: <code>python fetch_papers.py</code></li>
+</ol>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -234,13 +254,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

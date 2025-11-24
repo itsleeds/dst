@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2f9bc8108cc5788f896f6d8ac1f323a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ee47912cae73dc7932e3cc93c52697b6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -171,20 +172,90 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="open-source-software" class="level1">
 <h1>Open Source Software</h1>
-<p>This page lists open source software developed by members of the Data Science &amp; Technology theme.</p>
-<!-- *More content to be added here.* -->
-<section id="popular-itsleeds-github-repositories-5-stars" class="level2">
-<h2 class="anchored" data-anchor-id="popular-itsleeds-github-repositories-5-stars">Popular ITSLeeds GitHub Repositories (5+ Stars)</h2>
-<p>Here are some popular open-source repositories from the ITSLeeds GitHub organization:</p>
+<p>The Data Science &amp; Technology theme at ITS develops and maintains open source software tools for transport research, planning, and analysis. Our software is freely available and supports reproducible research and practical applications.</p>
+<section id="key-software-projects" class="level2">
+<h2 class="anchored" data-anchor-id="key-software-projects">Key Software Projects</h2>
+<section id="propensity-to-cycle-tool-pct" class="level3">
+<h3 class="anchored" data-anchor-id="propensity-to-cycle-tool-pct">Propensity to Cycle Tool (PCT)</h3>
 <ul>
-<li><a href="https://github.com/itsleeds/pct">pct</a> (20 stars): Get and reproduce data from the Propensity to Cycle Tool (PCT).</li>
-<li><a href="https://github.com/itsleeds/tds">tds</a> (51 stars): Transport Data Science, a post-graduate module at the University of Leeds’ Institute for Transport Studies.</li>
-<li><a href="https://github.com/itsleeds/od">od</a> (33 stars): An R package for working with origin-destination data.</li>
-<li><a href="https://github.com/itsleeds/opentransportdata">opentransportdata</a> (21 stars): A curated list of open transport datasets for research, teaching, and to save the world.</li>
-<li><a href="https://github.com/itsleeds/UK2GTFS">UK2GTFS</a> (43 stars): Convert UK transport data (TransXchange / ATOC CIF) to GTFS format in R.</li>
-<li><a href="https://github.com/ITSLeeds/rrsrr">rrsrr</a> (7 stars): Reproducible road safety research with R: a practical user manual (book).</li>
-<li><a href="https://github.com/itsleeds/NTEM2OD">NTEM2OD</a> (5 stars): Scripts to convert the National Trip Ends Model (NTEM) into an Origin-Destination (OD) Matrix.</li>
+<li><strong>Website:</strong> <a href="https://www.pct.bike/">www.pct.bike</a></li>
+<li><strong>Description:</strong> Strategic planning tool for cycling infrastructure used across England and Wales</li>
+<li><strong>Code:</strong> Open source R packages and web application</li>
 </ul>
+</section>
+<section id="network-planning-tools-for-scotland-npt.scot" class="level3">
+<h3 class="anchored" data-anchor-id="network-planning-tools-for-scotland-npt.scot">Network Planning Tools for Scotland (NPT.scot)</h3>
+<ul>
+<li><strong>Website:</strong> <a href="https://www.npt.scot/">npt.scot</a></li>
+<li><strong>Description:</strong> Open network planning tools for transport planning in Scotland</li>
+<li><strong>Focus:</strong> Accessibility, active travel, and low-carbon mobility</li>
+</ul>
+</section>
+<section id="r-packages-for-transport" class="level3">
+<h3 class="anchored" data-anchor-id="r-packages-for-transport">R Packages for Transport</h3>
+<p>Our team develops and maintains several R packages for transport data science:</p>
+<section id="stplanr" class="level4">
+<h4 class="anchored" data-anchor-id="stplanr"><a href="https://github.com/ropensci/stplanr">stplanr</a></h4>
+<p><strong>Sustainable Transport Planning with R</strong></p>
+<p>A package for solving common problems in transport planning and modelling, such as downloading and cleaning transport datasets, creating desire lines, and working with origin-destination data. (Hosted by rOpenSci but developed by ITS researchers).</p>
+</section>
+<section id="pct-20-stars" class="level4">
+<h4 class="anchored" data-anchor-id="pct-20-stars"><a href="https://github.com/ITSLeeds/pct">pct</a> ⭐ 20 stars</h4>
+<p><strong>Propensity to Cycle Tool Data</strong></p>
+<p>Functions to access and reproduce data from the Propensity to Cycle Tool (PCT), making the data more accessible for research and educational purposes.</p>
+</section>
+<section id="od-33-stars" class="level4">
+<h4 class="anchored" data-anchor-id="od-33-stars"><a href="https://github.com/ITSLeeds/od">od</a> ⭐ 33 stars</h4>
+<p><strong>Origin-Destination Data Analysis</strong></p>
+<p>An R package specifically designed for working with and manipulating origin-destination data, a core component of transport modelling.</p>
+</section>
+<section id="uk2gtfs-43-stars" class="level4">
+<h4 class="anchored" data-anchor-id="uk2gtfs-43-stars"><a href="https://github.com/ITSLeeds/UK2GTFS">UK2GTFS</a> ⭐ 43 stars</h4>
+<p><strong>Convert UK Transport Data to GTFS</strong></p>
+<p>A tool to convert UK transport data formats (like TransXchange and ATOC CIF) into the standard General Transit Feed Specification (GTFS) format.</p>
+</section>
+<section id="stats19" class="level4">
+<h4 class="anchored" data-anchor-id="stats19"><a href="https://github.com/ropensci/stats19">stats19</a></h4>
+<p><strong>Road Safety Data Analysis</strong></p>
+<p>An R package for working with UK road collision data from the STATS19 database.</p>
+</section>
+<section id="osmextract" class="level4">
+<h4 class="anchored" data-anchor-id="osmextract"><a href="https://github.com/ropensci/osmextract">osmextract</a></h4>
+<p><strong>OpenStreetMap Data Processing</strong></p>
+<p>Tools for downloading and processing OpenStreetMap data for transport analysis.</p>
+</section>
+</section>
+<section id="additional-resources" class="level3">
+<h3 class="anchored" data-anchor-id="additional-resources">Additional Resources</h3>
+<section id="opentransportdata-21-stars" class="level4">
+<h4 class="anchored" data-anchor-id="opentransportdata-21-stars"><a href="https://github.com/ITSLeeds/opentransportdata">opentransportdata</a> ⭐ 21 stars</h4>
+<p><strong>Open Transport Data List</strong></p>
+<p>A curated list of open transport datasets for research, teaching, and to save the world.</p>
+</section>
+<section id="tds-51-stars" class="level4">
+<h4 class="anchored" data-anchor-id="tds-51-stars"><a href="https://github.com/itsleeds/tds">tds</a> ⭐ 51 stars</h4>
+<p><strong>Transport Data Science</strong></p>
+<p>Materials for the Transport Data Science post-graduate module at the University of Leeds’ Institute for Transport Studies.</p>
+</section>
+<section id="rrsrr-7-stars" class="level4">
+<h4 class="anchored" data-anchor-id="rrsrr-7-stars"><a href="https://github.com/ITSLeeds/rrsrr">rrsrr</a> ⭐ 7 stars</h4>
+<p><strong>Reproducible Road Safety Research with R</strong></p>
+<p>A practical user manual (book) for conducting reproducible road safety research using R.</p>
+</section>
+<section id="ntem2od-5-stars" class="level4">
+<h4 class="anchored" data-anchor-id="ntem2od-5-stars"><a href="https://github.com/itsleeds/NTEM2OD">NTEM2OD</a> ⭐ 5 stars</h4>
+<p><strong>NTEM to OD Matrix Converter</strong></p>
+<p>Scripts to convert the National Trip Ends Model (NTEM) into an Origin-Destination (OD) Matrix.</p>
+</section>
+</section>
+</section>
+<section id="contributing" class="level2">
+<h2 class="anchored" data-anchor-id="contributing">Contributing</h2>
+<p>We welcome contributions to our open source projects. Visit our GitHub repositories to get involved, report issues, or suggest improvements.</p>
+</section>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<p>For questions about our software or collaboration opportunities, please <a href="./contact.html">contact us</a>.</p>
 
 
 </section>
@@ -242,13 +313,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
