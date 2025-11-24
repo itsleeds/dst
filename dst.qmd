@@ -10,3 +10,7 @@ format: docx
 {{< include people.qmd >}}
 
 {{< include projects.qmd >}}
+
+{{< include software.qmd >}}
+
+{{< include publications.qmd >}}
