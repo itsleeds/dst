@@ -1,0 +1,29 @@
+---
+format: gfm
+---
+
+# Data Science and Technology
+
+Data Science and Technology (DST) is a theme within the Institute for Transport Studies at the University of Leeds. Our research focuses on the application of data science and machine learning techniques to transport and mobility challenges.
+
+This is a quarto website for the DST theme.
+
+Contributions welcome!
+
+# Development
+
+<details>
+
+To reproduce this website you need to have R and Quarto installed.
+
+
+```{r}
+#| eval: false
+pkgs <- c(
+    "quarto",
+    "tidyverse",
+    "reactable"
+)
+install.packages(pkgs)
+quarto::quarto_preview()
+```
