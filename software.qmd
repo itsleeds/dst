@@ -5,29 +5,79 @@ format: html
 
 # Open Source Software
 
-The [ITS Leeds GitHub organization](https://github.com/ITSLeeds) hosts numerous open source tools for transport data science. Below are some of our key packages.
+The Data Science & Technology theme at ITS develops and maintains open source software tools for transport research, planning, and analysis. Our software is freely available and supports reproducible research and practical applications.
 
-## [stplanr](https://github.com/ropensci/stplanr)
+## Key Software Projects
+
+### Propensity to Cycle Tool (PCT)
+- **Website:** [www.pct.bike](https://www.pct.bike/)
+- **Description:** Strategic planning tool for cycling infrastructure used across England and Wales
+- **Code:** Open source R packages and web application
+
+### Network Planning Tools for Scotland (NPT.scot)
+- **Website:** [npt.scot](https://www.npt.scot/)
+- **Description:** Open network planning tools for transport planning in Scotland
+- **Focus:** Accessibility, active travel, and low-carbon mobility
+
+### R Packages for Transport
+Our team develops and maintains several R packages for transport data science:
+
+#### [stplanr](https://github.com/ropensci/stplanr)
 **Sustainable Transport Planning with R**
 
 A package for solving common problems in transport planning and modelling, such as downloading and cleaning transport datasets, creating desire lines, and working with origin-destination data. (Hosted by rOpenSci but developed by ITS researchers).
 
-## [pct](https://github.com/ITSLeeds/pct)
+#### [pct](https://github.com/ITSLeeds/pct) ⭐ 20 stars
 **Propensity to Cycle Tool Data**
 
 Functions to access and reproduce data from the Propensity to Cycle Tool (PCT), making the data more accessible for research and educational purposes.
 
-## [od](https://github.com/ITSLeeds/od)
+#### [od](https://github.com/ITSLeeds/od) ⭐ 33 stars
 **Origin-Destination Data Analysis**
 
 An R package specifically designed for working with and manipulating origin-destination data, a core component of transport modelling.
 
-## [UK2GTFS](https://github.com/ITSLeeds/UK2GTFS)
+#### [UK2GTFS](https://github.com/ITSLeeds/UK2GTFS) ⭐ 43 stars
 **Convert UK Transport Data to GTFS**
 
 A tool to convert UK transport data formats (like TransXchange and ATOC CIF) into the standard General Transit Feed Specification (GTFS) format.
 
-## [opentransportdata](https://github.com/ITSLeeds/opentransportdata)
+#### [stats19](https://github.com/ropensci/stats19)
+**Road Safety Data Analysis**
+
+An R package for working with UK road collision data from the STATS19 database.
+
+#### [osmextract](https://github.com/ropensci/osmextract)
+**OpenStreetMap Data Processing**
+
+Tools for downloading and processing OpenStreetMap data for transport analysis.
+
+### Additional Resources
+
+#### [opentransportdata](https://github.com/ITSLeeds/opentransportdata) ⭐ 21 stars
 **Open Transport Data List**
 
-A curated list of open transport datasets for research, teaching, and development.
+A curated list of open transport datasets for research, teaching, and to save the world.
+
+#### [tds](https://github.com/itsleeds/tds) ⭐ 51 stars
+**Transport Data Science**
+
+Materials for the Transport Data Science post-graduate module at the University of Leeds' Institute for Transport Studies.
+
+#### [rrsrr](https://github.com/ITSLeeds/rrsrr) ⭐ 7 stars
+**Reproducible Road Safety Research with R**
+
+A practical user manual (book) for conducting reproducible road safety research using R.
+
+#### [NTEM2OD](https://github.com/itsleeds/NTEM2OD) ⭐ 5 stars
+**NTEM to OD Matrix Converter**
+
+Scripts to convert the National Trip Ends Model (NTEM) into an Origin-Destination (OD) Matrix.
+
+## Contributing
+
+We welcome contributions to our open source projects. Visit our GitHub repositories to get involved, report issues, or suggest improvements.
+
+## Contact
+
+For questions about our software or collaboration opportunities, please [contact us](contact.qmd).

@@ -5,55 +5,31 @@ format: html
 
 <!-- Below are staff and doctoral researchers at ITS Leeds with a focus on Artificial Intelligence, Machine Learning, and Data Science. 🤖📊 -->
 
-Other people: TBC
+## Staff
 
-```{r}
-#| echo: false
-#| warning: false
-#| message: false
+- [Dr Chiara Calastri](https://environment.leeds.ac.uk/transport/staff/921/dr-chiara-calastri)
+- [Hsuan Chao](https://environment.leeds.ac.uk/transport/staff/21237/hsuan-chao)
+- [Prof Haibo Chen](https://environment.leeds.ac.uk/transport/staff/923/professor-haibo-chen)
+- [Prof Charisma Choudhury](https://environment.leeds.ac.uk/transport/staff/924/professor-charisma-choudhury)
+- [Prof Thijs Dekker](https://environment.leeds.ac.uk/transport/staff/929/professor-thijs-dekker)
+- [Dr Li-ke Jiang](https://environment.leeds.ac.uk/transport/staff/2506/dr-li-ke-jiang)
+- [Prof Susan Grant-Muller](https://environment.leeds.ac.uk/transport/staff/932/professor-susan-grant-muller)
+- [Prof Robin Lovelace](https://environment.leeds.ac.uk/transport/staff/953/professor-robin-lovelace): Professor of Transport Data Science
+- [Dr Malcolm Morgan](https://environment.leeds.ac.uk/transport/staff/964/dr-malcolm-morgan)
+- [Dr Ibrahim Ozturk](https://environment.leeds.ac.uk/transport/staff/10087/dr-ibrahim-ozturk)
+- [Dr Ian Philips](https://environment.leeds.ac.uk/transport/staff/972/dr-ian-philips)
+- [Dr Mahdi Rezaei](https://environment.leeds.ac.uk/transport/staff/9408/dr-mahdi-rezaei)
+- [Dr Karl Ropkins](https://environment.leeds.ac.uk/transport/staff/974/dr-karl-ropkins)
+- [Dr Chris Rushton](https://environment.leeds.ac.uk/transport/staff/8835/dr-chris-rushton)
+- [Dr Angelica Salas Jones](https://environment.leeds.ac.uk/transport/staff/9887/dr-angelica-salas-jones)
+- [Dr Joey Talbot](https://environment.leeds.ac.uk/transport/staff/8838/dr-joey-talbot)
+- [Dr James Tate](https://environment.leeds.ac.uk/transport/staff/980/dr-james-tate)
+- [Eugeni Vidal](https://www.linkedin.com/in/eugeni-vidal-tortosa-770928228/)
+- [Zhao Wang](https://environment.leeds.ac.uk/transport/staff/12330/zhao-wang)
+- [Dr Yuanxuan Yang](https://environment.leeds.ac.uk/transport/staff/9888/dr-yuanxuan-yang)
 
-library(reactable)
-library(htmltools)
+## PhD students
 
-# Read data, ensuring column names are preserved
-people <- read.csv("assets/people.csv", check.names = FALSE, stringsAsFactors = FALSE)
-
-# Select columns to display
-cols_to_show <- c("Name", "Position", "Research Group", "Email Address")
-
-# reactable(
-#   people[, cols_to_show],
-#   filterable = TRUE,
-#   searchable = TRUE,
-#   defaultPageSize = 20,
-#   columns = list(
-#     Name = colDef(
-#       cell = function(value, index) {
-#         # Render as link using the hidden 'Web page' column
-#         url <- people[index, "Web page"]
-#         if (!is.na(url) && url != "") {
-#           tags$a(href = url, target = "_blank", as.character(value))
-#         } else {
-#           as.character(value)
-#         }
-#       }
-#     ),
-#     `Email Address` = colDef(
-#       cell = function(value) {
-#         if (!is.na(value) && value != "") {
-#           tags$a(href = paste0("mailto:", value), value)
-#         } else {
-#           value
-#         }
-#       }
-#     )
-#   )
-# )
-knitr::kable(
-  people[, cols_to_show],
-  format = "html",
-  escape = FALSE,
-  table.attr = 'class="table table-striped"'
-)
-```
+- [Hussein Mahfouz](https://environment.leeds.ac.uk/transport/pgr/11201/hussein-mahfouz)
+- [Juan Pablo Zamora Fonseca](https://environment.leeds.ac.uk/geography/pgr/11291/juan-p-fonseca-zamora)
 

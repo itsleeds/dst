@@ -1,0 +1,47 @@
+---
+title: "Announcing the Transport Data Minihack 2026"
+description: "Join ITS staff and students for a data, coding, and reproducible research mini-hackathon focusing on transport datasets."
+author: "Robin Lovelace"
+date: "2025-08-07"
+categories: ["Datahack", "Transport Data", "Reproducibility", "ITS Leeds"]
+---
+
+## Empowering Data Skills at ITS: The Transport Data Minihack 2026
+
+The Institute for Transport Studies (ITS) is excited to announce the **Transport Data Minihack 2026**, an event designed to foster data, coding, and reproducible research skills among ITS staff and students. This mini-hackathon provides a unique opportunity to delve into transport datasets, enhance technical abilities, and collaborate on real-world data challenges.
+
+Scheduled for **Thursday, May 7th, 2026**, the event aims to create a supportive environment for participants, especially ITS MSc students working on their dissertation projects. It's a chance to get hands-on support with importing, processing, and visualizing data, and to explore the power of data science techniques in the context of transport.
+
+### Objectives of the Minihack:
+
+*   **Supportive Learning:** Provide a space for participants to ask questions about working with datasets and applying data science techniques to transport data.
+*   **Dissertation Assistance:** Offer direct support for importing datasets for MSc dissertations and other research projects.
+*   **Data Wrangling:** Focus on practical skills using tools like the `tidyverse` R package for data manipulation.
+*   **Data Visualization:** Enhance general data visualization skills and gain specific experience with various transport data types.
+*   **Open Science Promotion:** Showcase the potential of open data (transparency, participation, research) and reproducible/open workflows.
+
+### Who Can Join?
+
+The Minihack is open to all staff and students at ITS. If you are not based at the University of Leeds but are interested in participating, please contact the organizers (Robin Lovelace) for more information.
+
+### Schedule Highlights:
+
+The event will feature a structured yet flexible schedule to maximize learning and collaboration:
+
+*   **13:00 - 13:30:** Introduction to importing, processing, and visualizing data with RStudio, including an overview of RStudio and Quarto for reproducible reports, and an example with origin-destination data in Leeds.
+*   **13:30 - 14:00:** Dedicated time for importing datasets and installing necessary packages, with support available for any issues.
+*   **14:00 - 14:05:** Short break.
+*   **14:05 - 15:00:** Solo working sessions on datasets, with organizers available for questions and support.
+*   **15:15 - 15:45:** Optional presentations of results, offering participants a chance to share their learnings.
+*   **15:45 - 16:00:** Networking and idea-sharing session.
+
+### Prizes and Challenges:
+
+Participants will have the opportunity to win a copy of "Geocomputation with Python" or "Geocomputation with R (second edition)". Prizes will be awarded based on:
+
+*   Best technical implementation and code.
+*   Most creative or impactful use of data.
+
+Challenges for participants include writing code to automatically download and import datasets, subsetting data, and creating Quarto reports summarizing their analysis.
+
+Don't miss this opportunity to enhance your data skills and contribute to the vibrant research community at ITS! Sign-up details can be found [here](https://forms.office.com/e/A1ABvMuJAG).
