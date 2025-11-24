@@ -3,27 +3,4 @@ title: "Publications — Data Science & Technology"
 format: html
 ---
 
-# Recent Publications
-
-This list highlights recent research outputs from our theme members.
-
-## Selected Recent Papers
-
-- **2024**: Zannat, K. E., Choudhury, C. F., Hess, S., & Watling, D. *Investigating the relative accuracy of GPS, GSM and CDR data for inferring spatiotemporal travel trajectories*. IET Intelligent Transport Systems.
-- **2023**: Ozturk, I., & Merat, N. *Driving at night and how it's influenced by perceived driver skills*. Proceedings of the International Conference on Traffic and Transport Psychology.
-- **2023**: Lovelace, R., et al. *Propensity to Cycle Tool: An open source transport planning system*. Journal of Transport and Land Use.
-
-## Automated List Generation
-
-We have a Python script (`fetch_papers.py`) to fetch the latest publications from Google Scholar.
-
-**Note:** Google Scholar frequently rate-limits automated requests (Error 429). For a complete and reliable list, we recommend visiting the researchers' profiles directly:
-
-- [Robin Lovelace](https://scholar.google.com/scholar?q=Robin+Lovelace)
-- [Charisma Choudhury](https://scholar.google.com/scholar?q=Charisma+Choudhury)
-- [Susan Grant-Muller](https://scholar.google.com/scholar?q=Susan+Grant-Muller)
-
-### Running the script (Dev only)
-
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the script: `python fetch_papers.py`
+TBC
