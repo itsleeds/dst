@@ -16,8 +16,16 @@ library(htmltools)
 # Read data, ensuring column names are preserved
 people <- read.csv("assets/people.csv", check.names = FALSE, stringsAsFactors = FALSE)
 
+# Create image URL
+# Assumption: Name is "First Last" and the URL follows the pattern with kebab-case name
+people$image_url <- paste0(
+  "https://environment.leeds.ac.uk/images/resized/60x60-0-0-1-80-",
+  tolower(gsub(" ", "-", people$Name)),
+  ".jpg"
+)
+
 # Select columns to display
-cols_to_show <- c("Name", "Position", "Research Group", "Email Address")
+cols_to_show <- c("image_url", "Name", "Position", "Research Group", "Email Address")
 
 reactable(
   people[, cols_to_show],
@@ -25,6 +33,25 @@ reactable(
   searchable = TRUE,
   defaultPageSize = 20,
   columns = list(
+    image_url = colDef(
+      name = " ",
+      sortable = FALSE,
+      width = 80,
+      cell = function(value, index) {
+        # Link to staff page
+        url <- people[index, "Web page"]
+        # Use name as alt text
+        name <- people[index, "Name"]
+        
+        img_tag <- tags$img(src = value, height = "60", width = "60", alt = name)
+        
+        if (!is.na(url) && url != "") {
+          tags$a(href = url, target = "_blank", img_tag)
+        } else {
+          img_tag
+        }
+      }
+    ),
     Name = colDef(
       cell = function(value, index) {
         # Render as link using the hidden 'Web page' column
