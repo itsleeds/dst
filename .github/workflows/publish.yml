@@ -23,7 +23,7 @@ jobs:
           r-version: 'release'
 
       - name: Install R Dependencies
-        run: install.packages(c("dplyr", "knitr", "rmarkdown"))
+        run: install.packages(c("dplyr", "knitr", "rmarkdown", "reactable", "htmltools"))
         shell: Rscript {0}
 
       - name: Render and Publish

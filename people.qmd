@@ -7,37 +7,44 @@ format: html
 
 ```{r}
 #| echo: false
-#| message: false
 #| warning: false
-library(dplyr)
-library(knitr)
+#| message: false
 
-people = read.csv("assets/people.csv")
+library(reactable)
+library(htmltools)
 
-# Split into staff and PhD students
-staff = people |> filter(Position != "PhD student")
-phd_students = people |> filter(Position == "PhD student")
+# Read data, ensuring column names are preserved
+people <- read.csv("assets/people.csv", check.names = FALSE, stringsAsFactors = FALSE)
+
+# Select columns to display
+cols_to_show <- c("Name", "Position", "Research Group", "Email Address")
+
+reactable(
+  people[, cols_to_show],
+  filterable = FALSE,
+  searchable = TRUE,
+  defaultPageSize = 20,
+  columns = list(
+    Name = colDef(
+      cell = function(value, index) {
+        # Render as link using the hidden 'Web page' column
+        url <- people[index, "Web page"]
+        if (!is.na(url) && url != "") {
+          tags$a(href = url, target = "_blank", as.character(value))
+        } else {
+          as.character(value)
+        }
+      }
+    ),
+    `Email Address` = colDef(
+      cell = function(value) {
+        if (!is.na(value) && value != "") {
+          tags$a(href = paste0("mailto:", value), value)
+        } else {
+          value
+        }
+      }
+    )
+  )
+)
 ```
-
-## Staff
-
-```{r}
-#| echo: false
-#| results: asis
-staff |>
-  mutate(link = paste0("- [", Name, "](", Web.page, ")")) |>
-  pull(link) |>
-  cat(sep = "\n")
-```
-
-## PhD students
-
-```{r}
-#| echo: false
-#| results: asis
-phd_students |>
-  mutate(link = paste0("- [", Name, "](", Web.page, ")")) |>
-  pull(link) |>
-  cat(sep = "\n")
-```
-
